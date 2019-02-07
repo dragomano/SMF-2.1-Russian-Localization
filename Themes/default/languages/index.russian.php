@@ -527,7 +527,7 @@ $txt['calendar_today'] = 'Текущие события';
 $txt['calendar_week'] = 'Неделя';
 $txt['calendar_week_title'] = 'Неделя %1$d из %2$d';
 // %1$s is the month, %2$s is the day, %3$s is the year. Change to suit your language.
-$txt['calendar_week_beginning'] = 'Неделя начинается с %1$s %2$s, %3$s';
+$txt['calendar_week_beginning'] = 'Неделя начинается с %2$s %1$s, %3$s';
 $txt['calendar_numb_days'] = 'Количество дней:';
 $txt['calendar_how_edit'] = 'как отредактировать это событие?';
 $txt['calendar_link_event'] = 'Ссылка на событие';
