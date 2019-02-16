@@ -1107,7 +1107,7 @@ $txtBirthdayEmails['zwaldowski_body'] = '{REALNAME},
 Вот и прошёл ещё один год в Вашей жизни. Мы, команда {FORUMNAME}, надеемся, что он был наполнен счастьем, и желаем Вам удачи в предстоящем году.
 
 {REGARDS}';
-$txtBirthdayEmails['zwaldowski_author'] = '';
+$txtBirthdayEmails['zwaldowski_author'] = '<a href="https://www.simplemachines.org/community/?action=profile;u=72038">zwaldowski</a>';
 
 $txtBirthdayEmails['geezmo_subject'] = 'С днём рождения, {REALNAME}!';
 $txtBirthdayEmails['geezmo_body'] = 'Вы знаете, у кого сегодня день рождения, {REALNAME}?

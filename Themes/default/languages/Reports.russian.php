@@ -75,7 +75,7 @@ $txt['member_group_min_posts'] = 'Минимум сообщений';
 $txt['member_group_max_messages'] = 'Максимум личных сообщений';
 $txt['member_group_icons'] = 'Иконки';
 $txt['member_group_settings'] = 'Настройки';
-$txt['member_group_access'] = 'Доступ в Раздел';
+$txt['member_group_access'] = 'Доступ в раздел';
 
 // Board info.
 $txt['none'] = 'Нет';

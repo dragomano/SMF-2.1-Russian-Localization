@@ -212,7 +212,7 @@ $txt['memberlist_searchable'] = 'Поиск пользователей.';
 $txt['welcome_newest_member'] = 'Добро пожаловать, %1$s, наш самый новый пользователь.';
 $txt['admin_center'] = 'Центр администрирования';
 $txt['last_edit_by'] = '<span class="lastedit">Последнее редактирование</span>: %1$s от %2$s';
-$txt['last_edit_reason'] = '<span class="lastedit">Причина</span>: %1$s';
+$txt['last_edit_reason'] = '<span id="reason" class="lastedit">Причина</span>: %1$s';
 $txt['notify_deactivate'] = 'Хотите отключить уведомление для этой темы?';
 
 $txt['recent_posts'] = 'Последние сообщения';
@@ -755,7 +755,7 @@ $txt['previous_next_forward'] = 'следующая &raquo;';
 $txt['mark_unread'] = 'Отметить непрочитанным';
 
 $txt['ssi_not_direct'] = 'Пожалуйста, не обращайтесь напрямую к файлу SSI.php через URL-адрес. Возможно, вы захотите использовать путь (%1$s) или добавить ?ssi_function=something.';
-$txt['ssi_session_broken'] = 'SSI.php не может загрузить сессию! Возможно, это проблема связана с выходом или другими функциями. Пожалуйста, убедитесь что SSI.php вставлен в самом начале перед всеми другими скриптами!';
+$txt['ssi_session_broken'] = 'SSI.php не может загрузить сессию! Возможно, эта проблема связана с выходом или другими функциями. Пожалуйста, убедитесь что файл SSI.php подключается в самом начале перед всеми другими скриптами!';
 
 // Escape any single quotes in here twice.. 'it\'s' -> 'it\\\'s'.
 $txt['preview_title'] = 'Предварительный просмотр';

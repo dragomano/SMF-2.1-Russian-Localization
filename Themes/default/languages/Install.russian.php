@@ -167,7 +167,7 @@ $txt['ftp_username_info'] = 'Имя пользователя для доступ
 $txt['ftp_password'] = 'Пароль';
 $txt['ftp_password_info'] = 'Пароль для доступа к FTP. <em>В дальнейшем нигде не используется и не сохраняется.</em>';
 $txt['ftp_path'] = 'Путь установки';
-$txt['ftp_path_info'] = 'Это <em>относительный</em> путь, используемый вашим FTP клиентом <a href="' . $_SERVER['PHP_SELF'] . '?ftphelp" onclick="window.open(this.href, \'\', \'width=450,height=250\');return false;" target="_blank">(помощь)</a>.';
+$txt['ftp_path_info'] = 'Это <em>относительный</em> путь, используемый вашим FTP клиентом <a href="' . $_SERVER['PHP_SELF'] . '?ftphelp" onclick="window.open(this.href, \'\', \'width=450,height=250\');return false;" target="_blank" rel="noopener">(помощь)</a>.';
 $txt['ftp_path_found_info'] = 'Найденный путь.';
 $txt['ftp_connect'] = 'Подключиться';
 $txt['ftp_setup_why'] = 'Для чего это нужно?';
