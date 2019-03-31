@@ -1,17 +1,17 @@
 <?php
-// Version: 2.1 RC1; Index
+// Version: 2.1 RC2; Index
 
 global $forum_copyright, $webmaster_email, $scripturl, $context, $boardurl;
 
 // Native name, please use full HTML entities to write your language's name.
-$txt['native_name'] = 'Russian';
+$txt['native_name'] = '&#1056;&#1091;&#1089;&#1089;&#1082;&#1080;&#1081;';
 
 // Locale (strftime, pspell_new) and spelling. (pspell_new, can be left as '' normally.)
 // For more information see:
 //   - https://secure.php.net/manual/ru/function.pspell-new
 //   - https://secure.php.net/manual/ru/function.setlocale
 // Again, SPELLING SHOULD BE '' 99% OF THE TIME!!  Please read this!
-$txt['lang_locale'] = 'ru_RU.UTF8';
+$txt['lang_locale'] = 'ru_RU';
 $txt['lang_dictionary'] = 'ru';
 $txt['lang_spelling'] = '';
 //https://developers.google.com/recaptcha/docs/language
@@ -168,7 +168,7 @@ $txt['approve_all'] = 'Одобрить все';
 $txt['issue_warning'] = 'Предупреждение';
 $txt['awaiting_approval'] = 'Ожидает одобрения';
 $txt['attach_awaiting_approve'] = 'Вложения, ожидающие одобрения';
-$txt['post_awaiting_approval'] = 'Обратите внимание: данное сообщение ожидает одобрения модератора.';
+$txt['post_awaiting_approval'] = 'Данное сообщение ожидает одобрения модератора.';
 $txt['there_are_unapproved_topics'] = 'В данном разделе ожидают одобрения %1$s тем и %2$s сообщений. Нажмите <a href="%3$s">здесь</a> для просмотра.';
 $txt['send_message'] = 'Отправить сообщение';
 
@@ -299,7 +299,7 @@ $txt['redirect_board'] = 'Перенаправление';
 
 $txt['sendtopic_send'] = 'Отправить';
 $txt['report_sent'] = 'Ваша жалоба успешно отправлена.';
-$txt['post_becomes_unapproved'] = 'Ваше сообщение стало неодобренным, потому что было отправлено в неодобренную тему. Как только тема будет одобрена, ваше сообщение станет тоже одобренным.';
+$txt['post_becomes_unapproved'] = 'Ваше сообщение не было опубликовано, потому что было отправлено в неодобренную тему. Как только тема будет одобрена, ваше сообщение тоже будет одобрено.';
 
 $txt['time_offset'] = 'Часовой пояс';
 $txt['or'] = 'или';
@@ -404,7 +404,7 @@ $txt['shortcuts'] = 'подсказка: alt+s сохранить/отправи
 $txt['shortcuts_firefox'] = 'подсказка: shift+alt+s сохранить/отправить, shift+alt+p превью';
 $txt['shortcuts_mac'] = 'подсказка: ⌃⌥S сохранить/отправить, ⌃⌥P превью';
 $txt['shortcuts_drafts'] = ', alt+d сохранить черновик';
-$txt['shortcuts_drafts_firefox'] = ', shift+alt+d сохраненить черновик';
+$txt['shortcuts_drafts_firefox'] = ', shift+alt+d сохранить черновик';
 $txt['shortcuts_drafts_mac'] = ', ⌃⌥D сохранить черновик';
 $txt['poll_results'] = 'Посмотреть результаты';
 $txt['poll_lock'] = 'Заблокировать голосование';
@@ -438,6 +438,8 @@ $txt['more_stats'] = '[Подробная статистика]';
 // Use numeric entities in the below three strings.
 $txt['code'] = 'Код';
 $txt['code_select'] = 'Выделить';
+$txt['code_expand'] = 'Увеличить';
+$txt['code_shrink'] = 'Уменьшить';
 $txt['quote_from'] = 'Цитата';
 $txt['quote'] = 'Цитировать';
 $txt['quote_action'] = 'Цитировать';

@@ -1,5 +1,5 @@
 <?php
-// Version: 2.1 RC1; ManageSettings
+// Version: 2.1 RC2; ManageSettings
 
 global $scripturl;
 
@@ -15,7 +15,7 @@ $txt['polls_as_topics'] = 'Отображать в виде тем';
 $txt['allow_guestAccess'] = 'Разрешить гостям просматривать форум';
 $txt['userLanguage'] = 'Разрешить пользователям выбирать язык форума';
 $txt['allow_hideOnline'] = 'Разрешить пользователям скрывать свой онлайн-статус';
-$txt['titlesEnable'] = 'Разрешить надпись над аватаром';
+$txt['titlesEnable'] = 'Разрешить пользовательские заголовки';
 $txt['enable_buddylist'] = 'Разрешить белый и чёрный списки';
 $txt['default_personal_text'] = 'Подпись под аватаром по умолчанию';
 $txt['default_personal_text_note'] = 'Ставить эту подпись всем новым пользователям.';
@@ -223,7 +223,8 @@ $txt['setting_user_limit'] = 'Максимальное количество ба
 $txt['setting_user_limit_note'] = 'Это максимальное количество предупреждений, которое один модератор может назначить пользователю за 24 часа (0 &mdash; без ограничений).';
 $txt['setting_warning_decrement'] = 'Уменьшение количества баллов предупреждений каждые 24 часа';
 $txt['setting_warning_decrement_note'] = 'Только для пользователей, которые не получали предупреждений за последние 24 часа.';
-$txt['setting_view_warning'] = 'Пользователи, которые могут видеть статус предупреждения';
+$txt['setting_view_warning_any'] = 'Пользователи, которые могут видеть любой статус предупреждения';
+$txt['setting_view_warning_own'] = 'Пользователи, которые могут видеть только выданный им статус предупреждения';
 
 $txt['signature_settings'] = 'Настройка подписей';
 $txt['signature_settings_desc'] = 'Используйте данные настройки для определения вида подписи пользователя в SMF.';
@@ -403,9 +404,9 @@ $txt['setting_frame_security_DISABLE'] = 'Разрешить все';
 $txt['setting_proxy_ip_header'] = 'IP заголовок для обратного прокси';
 $txt['setting_proxy_ip_header_disabled'] = 'Запретить любой IP заголовок прокси';
 $txt['setting_proxy_ip_header_autodetect'] = 'Автоопределение IP заголовка прокси';
-$txt['setting_proxy_ip_servers'] = 'IP адреса обратных прокси';
+$txt['setting_proxy_ip_servers'] = 'IP-адреса обратных прокси';
 
-$txt['select_boards_from_list'] = 'Выберите разделы к которым применить';
+$txt['select_boards_from_list'] = 'Выберите разделы, к которым применить';
 
 $txt['topic_move_any'] = 'Разрешить перенос тем в разделы только для чтения';
 

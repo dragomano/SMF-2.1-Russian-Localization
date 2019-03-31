@@ -1,5 +1,5 @@
 <?php
-// Version: 2.1 RC1; Install
+// Version: 2.1 RC2; Install
 
 // These should be the same as those in index.language.php.
 $txt['lang_character_set'] = 'UTF-8';
@@ -34,7 +34,7 @@ $txt['user_refresh_install'] = 'Форум обновлён';
 $txt['user_refresh_install_desc'] = 'Во время установки инсталлятор обнаружил, что одна или несколько таблиц, которые должны быть созданы в базе данных, уже существуют.<br>Отсутствующие таблицы были заполнены данными по умолчанию. Данные, уже содержащиеся в таблицах, сохранены.';
 
 $txt['default_topic_subject'] = 'Добро пожаловать в SMF!';
-$txt['default_topic_message'] = 'Добро пожаловать на форум Simple Machines!<br><br>Надеемся, вам понравится использование этого форума. При возникновении каких-либо проблем, обращайтесь на [url=https://www.simplemachines.org/community/index.php]официальный сайт поддержки[/url].<br>Вы, также, можете посетить [url=https://www.simplemachines.ru/index.php]русскоязычное сообщество SMF[/url].<br><br>Большое спасибо!<br>Simple Machines';
+$txt['default_topic_message'] = 'Добро пожаловать на форум Simple Machines!<br><br>Надеемся, вам понравится использование этого форума. При возникновении каких-либо проблем обращайтесь на [url=https://www.simplemachines.org/community/index.php]официальный сайт поддержки[/url].<br>Вы также можете посетить [url=https://www.simplemachines.ru/index.php]русскоязычное сообщество SMF[/url].<br><br>Большое спасибо!<br>Simple Machines';
 $txt['default_board_name'] = 'Общий раздел';
 $txt['default_board_description'] = 'В этом разделе можно вести разговоры на любые темы.';
 $txt['default_category_name'] = 'Главная категория';

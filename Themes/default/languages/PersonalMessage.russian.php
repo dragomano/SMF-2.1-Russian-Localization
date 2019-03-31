@@ -1,5 +1,5 @@
 <?php
-// Version: 2.1 RC1; PersonalMessage
+// Version: 2.1 RC2; PersonalMessage
 
 global $context;
 
@@ -185,7 +185,7 @@ $txt['pm_rule_sel_label'] = 'Выберите ярлык';
 $txt['pm_rule_delete'] = 'Удалить сообщение';
 $txt['pm_rule_no_name'] = 'Вы забыли ввести названия фильтра.';
 $txt['pm_rule_no_criteria'] = 'Фильтр должен содержать хотя бы одно условие и одно действие.';
-$txt['pm_rule_too_complex'] = 'Фильтр, который Вы создали, слишком большой для SMF. Попробуйте создать фильтр поменьше.';
+$txt['pm_rule_too_complex'] = 'Фильтр, который вы создали, слишком большой для SMF. Попробуйте создать фильтр поменьше.';
 
 $txt['pm_readable_and'] = '<em>и</em>';
 $txt['pm_readable_or'] = '<em>или</em>';

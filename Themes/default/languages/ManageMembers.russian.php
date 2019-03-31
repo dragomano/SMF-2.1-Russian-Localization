@@ -1,5 +1,5 @@
 <?php
-// Version: 2.1 RC1; ManageMembers
+// Version: 2.1 RC2; ManageMembers
 
 global $context;
 
@@ -97,7 +97,7 @@ $txt['admin_browse_awaiting_activate'] = 'Ожидают активации (%1$
 
 $txt['admin_browse_username'] = 'Имя пользователя';
 $txt['admin_browse_email'] = 'E-mail';
-$txt['admin_browse_ip'] = 'IP адрес';
+$txt['admin_browse_ip'] = 'IP-адрес';
 $txt['admin_browse_registered'] = 'Зарегистрирован';
 $txt['admin_browse_id'] = 'ID';
 $txt['admin_browse_with_selected'] = 'С выделенными';

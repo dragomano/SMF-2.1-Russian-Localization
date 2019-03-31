@@ -1,5 +1,5 @@
 <?php
-// Version: 2.1 RC1; ManageCalendar
+// Version: 2.1 RC2; ManageCalendar
 
 $txt['calendar_desc'] = 'Здесь можно изменить настройки календаря.';
 

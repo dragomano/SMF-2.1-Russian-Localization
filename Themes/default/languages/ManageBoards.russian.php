@@ -1,5 +1,5 @@
 <?php
-// Version: 2.1 RC1; ManageBoards
+// Version: 2.1 RC2; ManageBoards
 
 $txt['boards_and_cats'] = 'Управление разделами и категориями';
 $txt['order'] = 'Расположение';
