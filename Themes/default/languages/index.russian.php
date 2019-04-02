@@ -438,8 +438,8 @@ $txt['more_stats'] = '[Подробная статистика]';
 // Use numeric entities in the below three strings.
 $txt['code'] = 'Код';
 $txt['code_select'] = 'Выделить';
-$txt['code_expand'] = 'Увеличить';
-$txt['code_shrink'] = 'Уменьшить';
+$txt['code_expand'] = 'Развернуть';
+$txt['code_shrink'] = 'Свернуть';
 $txt['quote_from'] = 'Цитата';
 $txt['quote'] = 'Цитировать';
 $txt['quote_action'] = 'Цитировать';
