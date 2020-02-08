@@ -47,7 +47,7 @@
  * how it should use the 'America/Adak' location.
  */
 
-global $tztxt;
+global $tztxt, $txt;
 
 // Descriptions for entire time zones to use instead of a list of locations
 $tztxt['UTC'] = 'Всемирное координированное время';

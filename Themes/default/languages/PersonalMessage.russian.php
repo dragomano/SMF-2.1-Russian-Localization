@@ -36,6 +36,7 @@ $txt['sent_to'] = 'Получатель';
 $txt['reply_to_all'] = 'Ответить всем';
 $txt['delete_conversation'] = 'Удалить диалог';
 $txt['remove_conversation'] = 'Удалить все сообщения в этом диалоге?';
+$txt['pm'] = 'Личное сообщение';
 
 $txt['pm_capacity'] = 'Количество';
 $txt['pm_currently_using'] = '%1$s сообщений, заполнен на %2$s%%.';

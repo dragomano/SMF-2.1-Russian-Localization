@@ -11,6 +11,10 @@ $txt['agreement_agree_coppa_below'] = 'Я принимаю соглашение 
 $txt['agree_coppa_above'] = 'Мне как минимум %1$d лет.';
 $txt['agree_coppa_below'] = 'Мне меньше %1$d лет.';
 
+// Registration policy page.
+$txt['registration_policy'] = 'Политика регистрации';
+$txt['policy_agree'] = 'Я принимаю условия политики.';
+
 // Registration form.
 $txt['registration_form'] = 'Регистрационная форма';
 $txt['need_username'] = 'Вы не ввели имя пользователя.';

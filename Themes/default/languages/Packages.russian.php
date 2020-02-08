@@ -173,7 +173,7 @@ $txt['package_modification_missing'] = 'Файл не найден.';
 $txt['package_no_zlib'] = 'zlib';
 $txt['package_no_phar'] = 'phar';
 $txt['package_no_package_manager'] = 'менеджер пакетов';
-$txt['package_no_zlib'] = 'Конфигурация PHP вашего хостинга не поддерживает библиотеку <strong>%1$s</strong>. Без поддержки этой библиотеки %2$s работать не может. Обратитесь к своему хостеру для решения этой проблемы.';
+$txt['package_no_lib'] = 'Конфигурация PHP вашего хостинга не поддерживает библиотеку <strong>%1$s</strong>. Без поддержки этой библиотеки %2$s работать не может. Обратитесь к своему хостеру для решения этой проблемы.';
 
 $txt['package_cleanperms_title'] = 'Изменение прав';
 $txt['package_cleanperms_desc'] = 'Здесь можно изменить права файлов, используемых форумом.';
@@ -280,5 +280,10 @@ $txt['package_license_default'] = 'По умолчанию';
 $txt['package_available_license_language'] = 'Доступные языки лицензии:';
 
 $txt['package_chmod_linux'] = 'Если у вас есть доступ к консоли ssh, выполнение указанной ниже команды автоматически исправит права доступа для этих файлов.';
+
+$txt['package_validation_status_unknown'] = 'Неизвестна или не найдена';
+$txt['package_validation_status_clean'] = 'Найдена';
+$txt['package_validation_status_blacklist'] = 'В чёрном списке';
+$txt['package_validation_blacklist_found'] = 'Эта модификация была найдена в чёрном списке и может быть небезопасной.';
 
 ?>

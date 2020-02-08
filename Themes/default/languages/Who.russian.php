@@ -104,6 +104,19 @@ $txt['whoallow_editnews'] = 'Редактирует новости.';
 $txt['whoallow_mailing'] = 'Отправляет электронное сообщение.';
 $txt['whoallow_maintain'] = 'Выполняет обслуживание форума.';
 $txt['whoallow_manageattachments'] = 'Управляет вложениями.';
+$txt['whoallow_modsettings'] = 'Редактирует настройки мода';
+$txt['whoallow_logs '] = 'Просматривает журнал ошибок';
+$txt['whoallow_languages'] = 'Управляет локализациями форума';
+$txt['whoallow_sengines'] = 'Управляет поисковыми системами';
+$txt['whoallow_managesearch'] = 'Редактирует настройки поиска';
+$txt['whoallow_managecalendar'] = 'Управляет календарем';
+$txt['whoallow_postsettings'] = 'Редактирует настройки сообщений';
+$txt['whoallow_scheduledtasks'] = 'Настраивает диспетчер задач';
+$txt['whoallow_mailqueue'] = 'Просматривает очередь сообщений';
+$txt['whoallow_reports'] = 'Просматривает отчёты';
+$txt['whoallow_membergroups'] = 'Управляет пользовательскими группами';
+$txt['whoallow_regcenter'] = 'Просматривает центр регистрации';
+$txt['whoallow_paidsubscribe'] = 'Управляет платными подписками';
 $txt['whoallow_moderate'] = 'Просматривает <a href="' . $scripturl . '?action=moderate">центр модерации</a>.';
 $txt['whoallow_mlist'] = 'Просматривает <a href="' . $scripturl . '?action=mlist">список пользователей</a>.';
 $txt['whoallow_optimizetables'] = 'Оптимизирует таблицы форума.';
@@ -158,6 +171,7 @@ $txt['credits_groups_beta'] = 'Бета тестерам';
 $txt['credits_beta_message'] = 'Тем, кто неустанно находил ошибки, использовал обратную связь, а также сводил с ума разработчиков.';
 $txt['credits_groups_founder'] = 'Основателю SMF';
 $txt['credits_groups_orignal_pm'] = 'Первым менеджерам проекта';
+$txt['credits_in_memoriam'] = 'Памяти';
 
 // List of people who have made more than a token contribution to this translation. (blank for English)
 $txt['translation_credits'] = array('Mavn', 'Digger', 'Bugo');

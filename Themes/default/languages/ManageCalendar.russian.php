@@ -27,26 +27,7 @@ $txt['setting_cal_minyear'] = 'Минимальный год';
 $txt['setting_cal_maxyear'] = 'Максимальный год';
 $txt['setting_cal_maxspan'] = 'Максимальное количество дней для отображения события';
 $txt['setting_cal_showInTopic'] = 'Показывать связанные с темой события';
-$txt['setting_calendar_default_view'] = 'Вид страницы календаря';
-$txt['setting_cal_viewlist'] = 'Список';
-$txt['setting_cal_viewmonth'] = 'Месяц';
-$txt['setting_cal_viewweek'] = 'Неделя';
-
-$txt['setting_cal_display_type'] = 'Вид календаря';
-$txt['setting_cal_display_comfortable'] = 'Стандартный';
-$txt['setting_cal_display_compact'] = 'Компактный';
-
 $txt['setting_cal_disable_prev_next'] = 'Отключить блок с тремя месяцами';
-
-$txt['setting_cal_highlight_events'] = 'Подсвечивать события';
-$txt['setting_cal_highlight_holidays'] = 'Подсвечивать праздники';
-$txt['setting_cal_highlight_birthdays'] = 'Подсвечивать дни рождения';
-
-$txt['setting_cal_highlight_none'] = 'Нигде';
-$txt['setting_cal_highlight_mini'] = 'Только мини-календарь';
-$txt['setting_cal_highlight_main'] = 'Только стандартный календарь';
-$txt['setting_cal_highlight_both'] = 'Мини-календарь и стандартный';
-
 $txt['setting_cal_week_links'] = 'Показывать ссылки на недели';
 $txt['setting_cal_week_links_none'] = 'Нигде';
 $txt['setting_cal_week_links_mini'] = 'Только мини-календарь';

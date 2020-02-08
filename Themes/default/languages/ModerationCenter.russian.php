@@ -27,7 +27,7 @@ $txt['mc_notes'] = 'Примечания для модераторов';
 $txt['mc_notes_delete_own'] = 'Вы можете удалять только свои записи.';
 $txt['mc_cannot_connect_sm'] = 'Невозможно соединиться с simplemachines.org для получения последних новостей.';
 
-$txt['mc_recent_reports_none'] = 'Отчётов нет';
+$txt['mc_recent_reports_none'] = 'Отчётов нет.';
 $txt['mc_watched_users_none'] = 'В данный момент нет пользователей под наблюдением.';
 $txt['mc_group_requests_none'] = 'В данный момент нет запросов в группы.';
 $txt['mc_reported_users_none'] = 'В данный момент нет  жалоб на профили.';
@@ -100,8 +100,8 @@ $txt['mc_modreport_add_mod_comment'] = 'Добавить комментарий'
 $txt['mc_modreport_edit_mod_comment'] = 'Отредактировать комментарий';
 
 $txt['mc_viewmemberreport'] = 'Жалоба на профиль %1$s';
-$txt['mc_memberreport_summary'] = 'Жалоб на этого пользователя: %1$d. Последняя жалоба: %2$s.';
-$txt['mc_memberreport_whoreported_title'] = 'Пользователи, подавшие жалобы на этого.';
+$txt['mc_memberreport_summary'] = 'Жалоб на этот профиль: %1$d. Последняя жалоба: %2$s.';
+$txt['mc_memberreport_whoreported_title'] = 'Пользователи, подавшие жалобы на этот профиль.';
 
 $txt['show_notice'] = 'Текст уведомления';
 $txt['show_notice_subject'] = 'Тема';

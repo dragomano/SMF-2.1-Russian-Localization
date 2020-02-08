@@ -114,6 +114,7 @@ $txt['admin_browse_w_reject'] = 'Отклонить';
 $txt['admin_browse_w_remind'] = 'Уведомить';
 $txt['admin_browse_w_approve_deletion'] = 'Подтвердить (удаление учётной записи)';
 $txt['admin_browse_w_email'] = 'и отправить электронное сообщение';
+$txt['admin_browse_no_email'] = '(без электронного сообщения)';
 $txt['admin_browse_w_approve_require_activate'] = 'Одобрить и потребовать активацию';
 
 $txt['admin_browse_filter_by'] = 'Фильтровать по';
