@@ -120,7 +120,7 @@ $txt['backtrace_info'] = '<b>#%1$d</b>: %2$s()<br>Вызов из <a href="' . $
 $txt['errortype_all'] = 'Все ошибки';
 $txt['errortype_general'] = 'Общие';
 $txt['errortype_general_desc'] = 'Общие ошибки, которые не были отнесены к другим типам';
-$txt['errortype_critical'] = '<span class="red">Критические</span>';
+$txt['errortype_critical'] = 'Критические';
 $txt['errortype_critical_desc'] = 'Критические ошибки. Их желательно исправить как можно быстрее. Наличие таких ошибок может вызвать некорректную работу форума и стать причиной нарушения безопасности работы.';
 $txt['errortype_database'] = 'База данных';
 $txt['errortype_database_desc'] = 'Ошибки, вызванные некорректными запросами. Должны быть рассмотрены и сообщены команде SMF.';

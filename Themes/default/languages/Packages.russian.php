@@ -124,11 +124,11 @@ $txt['package_theme_failure_warning'] = 'Как минимум одна ошиб
 
 $txt['package_bytes'] = 'байт';
 
-$txt['package_action_missing'] = '<strong class="error">Файл не найден</strong>';
-$txt['package_action_error'] = '<strong class="error">Ошибка файла установки</strong>';
-$txt['package_action_failure'] = '<strong class="error">Неудачно</strong>';
-$txt['package_action_success'] = '<strong>Успешно</strong>';
-$txt['package_action_skipping'] = '<strong>Пропуск файла</strong>';
+$txt['package_action_missing'] = 'Файл не найден';
+$txt['package_action_error'] = 'Ошибка файла установки';
+$txt['package_action_failure'] = 'Неудачно';
+$txt['package_action_success'] = 'Успешно';
+$txt['package_action_skipping'] = 'Пропуск файла';
 
 $txt['package_uninstall_actions'] = 'Удаление пакета';
 $txt['package_uninstall_done'] = 'Пакет был успешно удален.';

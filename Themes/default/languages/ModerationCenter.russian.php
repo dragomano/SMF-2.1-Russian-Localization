@@ -108,7 +108,7 @@ $txt['show_notice_subject'] = 'Тема';
 $txt['show_notice_text'] = 'Текст';
 
 $txt['mc_watched_users_title'] = 'Под наблюдением';
-$txt['mc_watched_users_desc'] = 'Здесь можно отслеживать всех пользователей, находящихся под «наблюдением» модераторов и требующие одобрения сообщения от них. ';
+$txt['mc_watched_users_desc'] = 'Здесь можно отслеживать всех пользователей, находящихся под «наблюдением», и требующие одобрения сообщения от них. ';
 $txt['mc_watched_users_post'] = 'По сообщениям';
 $txt['mc_watched_users_warning'] = 'Уровень предупреждения';
 $txt['mc_watched_users_last_login'] = 'Последняя активность';

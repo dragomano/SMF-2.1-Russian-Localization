@@ -3,11 +3,11 @@
 
 global $scripturl, $context;
 
-$txt['who_hidden'] = '<em>Скрытый пользователь. Просмотр недоступен.</em>';
+$txt['who_hidden'] = 'Скрытый пользователь. Просмотр недоступен.';
 $txt['who_admin'] = 'Просматривает центр администрирования';
 $txt['who_moderate'] = 'Просматривает центр модерации';
 $txt['who_generic'] = 'Просматривает';
-$txt['who_unknown'] = '<em>Неизвестное действие</em>';
+$txt['who_unknown'] = 'Неизвестное действие';
 $txt['who_user'] = 'Пользователь';
 $txt['who_time'] = 'Время';
 $txt['who_action'] = 'Действие';
