@@ -96,7 +96,7 @@ $txt['admin_browse_awaiting_approval'] = 'Ожидают одобрения (%1$
 $txt['admin_browse_awaiting_activate'] = 'Ожидают активации (%1$d)';
 
 $txt['admin_browse_username'] = 'Имя пользователя';
-$txt['admin_browse_email'] = 'E-mail';
+$txt['admin_browse_email'] = 'Имейл';
 $txt['admin_browse_ip'] = 'IP-адрес';
 $txt['admin_browse_registered'] = 'Зарегистрирован';
 $txt['admin_browse_id'] = 'ID';

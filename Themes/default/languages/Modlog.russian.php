@@ -50,7 +50,7 @@ $txt['modlog_ac_delete_warn_template'] = 'Удален шаблон предуп
 $txt['modlog_ac_ban'] = 'Добавлены параметры бана:';
 $txt['modlog_ac_ban_remove'] = 'Удалены параметры бана:';
 $txt['modlog_ac_ban_trigger_member'] = ' <em>Пользователь:</em> {member}';
-$txt['modlog_ac_ban_trigger_email'] = '<em>E-mail:</em> {email}';
+$txt['modlog_ac_ban_trigger_email'] = '<em>Имейл:</em> {email}';
 $txt['modlog_ac_ban_trigger_ip_range'] = '<em>IP:</em> {ip_range}';
 $txt['modlog_ac_ban_trigger_hostname'] = ' <em>Имя хоста:</em> {hostname}';
 

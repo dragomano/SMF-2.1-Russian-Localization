@@ -546,7 +546,7 @@ $txt['trackEdit_applicator'] = 'Изменено';
 $txt['trackEdit_action_real_name'] = 'Отображаемое имя пользователя';
 $txt['trackEdit_action_usertitle'] = 'Надпись над аватаром';
 $txt['trackEdit_action_member_name'] = 'Имя пользователя';
-$txt['trackEdit_action_email_address'] = 'E-mail';
+$txt['trackEdit_action_email_address'] = 'Имейл';
 $txt['trackEdit_action_id_group'] = 'Основная группа';
 $txt['trackEdit_action_additional_groups'] = 'Дополнительные группы';
 

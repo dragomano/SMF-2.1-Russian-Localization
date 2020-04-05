@@ -67,7 +67,7 @@ $txt['file_location'] = 'Расположение файла';
 $txt['package_installed_key'] = 'Установленные пакеты:';
 $txt['package_installed_warning1'] = 'Этот пакет уже установлен на вашем форуме!';
 $txt['package_installed_warning2'] = 'Вы должны удалить старую версию пакета или попросить автора выпустить обновление для текущей версии.';
-$txt['package_installed_warning3'] = 'Не забывайте делать резервное копирование файлов и базы данных перед установкой/удалением любых модификаций.';
+$txt['package_installed_warning3'] = 'Не забывайте делать резервное копирование файлов и базы данных перед установкой/удалением любых модификаций (особенно бета-версий).';
 $txt['package_installed_done'] = 'Пакет был успешно установлен. Теперь можно использовать предоставляемые им функции или изменения.';
 $txt['package_installed_redirecting'] = 'Перенаправление...';
 $txt['package_installed_redirect_go_now'] = 'Перейти';
@@ -281,6 +281,7 @@ $txt['package_available_license_language'] = 'Доступные языки ли
 
 $txt['package_chmod_linux'] = 'Если у вас есть доступ к консоли ssh, выполнение указанной ниже команды автоматически исправит права доступа для этих файлов.';
 
+$txt['package_validaiton_results'] = 'Результаты проверки';
 $txt['package_validation_status_unknown'] = 'Неизвестна или не найдена';
 $txt['package_validation_status_clean'] = 'Найдена';
 $txt['package_validation_status_blacklist'] = 'В чёрном списке';

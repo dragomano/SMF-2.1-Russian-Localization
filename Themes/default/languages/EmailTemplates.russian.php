@@ -919,7 +919,7 @@ $txt['paid_subscription_new_body'] = '{REALNAME},
 
 	Подписка: {NAME}
 	Пользователь: {SUBNAME} ({SUBUSER})
-	E-mail: {SUBEMAIL}
+	Имейл: {SUBEMAIL}
 	Цена: {PRICE}
 	Дата: {DATE}
 
