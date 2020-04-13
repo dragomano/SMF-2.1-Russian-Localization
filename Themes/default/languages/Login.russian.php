@@ -86,6 +86,7 @@ $txt['setting_registration_standard'] = 'Мгновенная регистрац
 $txt['setting_registration_activate'] = 'Активация по электронной почте';
 $txt['setting_registration_approval'] = 'Одобрение администратором';
 $txt['setting_send_welcomeEmail'] = 'Отправлять приветствие новым пользователям';
+$txt['setting_disableRegisterCheck'] = 'Отключить блокировку регистрации людей с одного и того же устройства';
 
 $txt['setting_coppaAge'] = 'Минимальный возраст пользователя для успешной регистрации';
 $txt['setting_coppaType'] = 'Действия, выполняемые при регистрации пользователя моложе указанного возраста';

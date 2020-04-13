@@ -318,7 +318,7 @@ $txt['registration_not_approved'] = 'Извините, данная учётна
 $txt['registration_not_activated'] = 'Извините, данная учётная запись пока не активирована. Если необходимо повторно отправить письмо с кодом активации, пожалуйста, нажмите <a href="%1$s">здесь</a>';
 
 $txt['primary_membergroup'] = 'Главная группа';
-$txt['membergroups_group_type_post'] = 'Главная группа';
+$txt['post_based_membergroup'] = 'Группа, основанная на количестве сообщений';
 $txt['additional_membergroups'] = 'Дополнительные группы';
 $txt['additional_membergroups_show'] = 'показать дополнительные группы';
 $txt['no_primary_membergroup'] = '(нет главной группы)';
@@ -601,5 +601,20 @@ $txt['theme_opt_display'] = 'Отображение разделов и тем';
 $txt['theme_opt_posting'] = 'Отправка сообщений';
 $txt['theme_opt_moderation'] = 'Модерация';
 $txt['theme_opt_personal_messages'] = 'Личные сообщения';
+
+$txt['export_profile_data'] = 'Скачивание данных профиля';
+$txt['export_profile_data_desc'] = 'В этом разделе можно экспортировать копии данных профиля, сообщения и личные сообщения форума в загружаемый файл.<br>Замечание:<ul class="bbc_list">%1$s</ul>';
+$txt['export_profile_data_desc_list'] = array('Для завершения компиляции ваших данных системе может потребоваться некоторое время.', 'После завершения процесса экспорта на этой странице появится ссылка для скачивания.', 'expiry' => 'Старые файлы экспорта удаляются через %1$d дней.');
+$txt['active_exports'] = 'Идёт экспорт...';
+$txt['completed_exports'] = 'Экспорт завершён';
+$txt['export_settings'] = 'Настройки экспорта';
+$txt['export_include_profile'] = 'Включить основные данные профиля';
+$txt['export_include_posts'] = 'Включить сообщения';
+$txt['export_include_personal_messages'] = 'Включить личные сообщения';
+$txt['export_format'] = 'Формат файла для экспортируемых данных';
+$txt['export_begin'] = 'Начать экспорт';
+$txt['export_restart'] = 'Перезапустить';
+$txt['export_restart_confirm'] = 'Это приведет к удалению текущего экспорта профиля и началу работы с новыми настройками. Хотите это сделать?';
+$txt['export_cancel'] = 'Отменить';
 
 ?>

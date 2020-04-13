@@ -601,6 +601,7 @@ $txt['database_settings'] = 'База данных';
 $txt['cookies_sessions_settings'] = 'Куки и сессии';
 $txt['security_settings'] = 'Безопасность';
 $txt['caching_settings'] = 'Кэширование';
+$txt['export_settings'] = 'Экспорт данных';
 $txt['load_balancing_settings'] = 'Балансировка нагрузки';
 $txt['phpinfo_settings'] = 'Информация о PHP';
 $txt['phpinfo_localsettings'] = 'Текущие настройки';
