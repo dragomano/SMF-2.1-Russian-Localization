@@ -1,5 +1,5 @@
 <?php
-// Version: 2.1 RC2; Packages
+// Version: 2.1 RC3; Packages
 
 $txt['package_proceed'] = 'Продолжить';
 $txt['php_script'] = 'Файлы пакета были извлечены, но для дальнейшей работы необходимо запустить PHP скрипт, который поставляется вместе с пакетом';
@@ -74,7 +74,7 @@ $txt['package_installed_redirect_go_now'] = 'Перейти';
 $txt['package_installed_redirect_cancel'] = 'Вернуться в менеджер пакетов';
 
 $txt['packages_adding_title'] = 'Получение пакетов';
-$txt['packages_adding'] = 'Ищите новые моды для форума в официальном каталоге модификаций SMF - <strong><a href="https://custom.simplemachines.org/mods/" target="_blank" rel="noopener">https://custom.simplemachines.org/mods/</a></strong>.<br><br>Каждая из модификаций имеет отдельную тему для обсуждения.';
+$txt['packages_adding'] = 'Ищите новые моды для форума в официальном каталоге модификаций SMF - <strong><a class="bbc_link" href="https://custom.simplemachines.org/mods/" target="_blank" rel="noopener">https://custom.simplemachines.org/mods/</a></strong>.<br>Каждая из модификаций имеет отдельную тему для обсуждения.<br>Обзоры и переводы модификаций можно найти в <a class="bbc_link" href="https://dragomano.ru" target="_blank" rel="noopener">Логове медведя</a>.';
 
 $txt['package_upgrade'] = 'Обновить';
 $txt['package_uninstall_readme'] = 'Описание при удалении';
@@ -141,10 +141,10 @@ $txt['package_install_options_ftp_server'] = 'Сервер FTP';
 $txt['package_install_options_ftp_port'] = 'Порт';
 $txt['package_install_options_ftp_user'] = 'Имя пользователя';
 $txt['package_install_options_make_backups'] = 'Создавать резервные копии изменяемых файлов с тильдой (~) на конце их имён.';
-$txt['package_install_options_make_full_backups'] = 'Создавать полную копию файлов форума всякий раз, когда устанавливается или удаляется какая-либо модификация.';
+$txt['package_install_options_make_full_backups'] = 'Создавать полную копию файлов форума при установке или удалении модификаций.';
 
 $txt['package_ftp_necessary'] = 'Необходимая информация FTP';
-$txt['package_ftp_why'] = 'Некоторые файлы, которые менеджер пакетов должен изменить, не имеют прав на запись. Менеджер пакетов может изменить это автоматически. Введенные вами данные для FTP доступа, могут быть временно кешированы для корректной работы менеджера пакетов. Также, вы можете самостоятельно изменить права доступа, используя FTP-клиент. Для просмотра списка нужных файлов нажмите <a href="#" onclick="%1$s">здесь</a>.';
+$txt['package_ftp_why'] = 'Некоторые файлы, которые менеджер пакетов должен изменить, не имеют прав на запись. Менеджер пакетов может изменить это автоматически. Введенные вами данные для FTP доступа, могут быть временно кешированы для корректной работы менеджера пакетов. Также, вы можете самостоятельно изменить права доступа, используя FTP-клиент. Для просмотра списка нужных файлов нажмите <a class="bbc_link" href="#" onclick="%1$s">здесь</a>.';
 $txt['package_ftp_why_file_list'] = 'Следующим файлам нужны права на запись для продолжения установки:';
 $txt['package_ftp_why_download'] = 'Для загрузки пакетов папка Packages и все файлы в ней должны иметь права на запись. Менеджер пакетов может использовать настройки FTP-сервера для установки этих прав.';
 $txt['package_ftp_server'] = 'Сервер FTP';
@@ -260,7 +260,7 @@ $txt['package_restore_permissions_post_change'] = '%2$s (%3$s &mdash; было %
 $txt['package_restore_permissions_action_skipped'] = '<em>Пропущено</em>';
 $txt['package_restore_permissions_action_success'] = '<span class="success">Выполнено</span>';
 $txt['package_restore_permissions_action_failure'] = '<span class="error">С ошибками</span>';
-$txt['package_restore_permissions_action_done'] = 'SMF попытался восстановить первоначальные права доступа к выбранным файлам, ниже можно увидеть результат этих действий. Если попытка не удалась или требуется больше информации, посмотрите их в секции <a href="%1$s">Права доступа к файлам</a>.';
+$txt['package_restore_permissions_action_done'] = 'SMF попытался восстановить первоначальные права доступа к выбранным файлам, ниже можно увидеть результат этих действий. Если попытка не удалась или требуется больше информации, посмотрите их в секции <a class="bbc_link" href="%1$s">Права доступа к файлам</a>.';
 
 $txt['package_file_perms_warning'] = 'Обратите внимание';
 $txt['package_file_perms_warning_desc'] = '

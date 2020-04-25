@@ -1,5 +1,5 @@
 <?php
-// Version: 2.1 RC2; Profile
+// Version: 2.1 RC3; Profile
 
 global $scripturl, $context;
 
@@ -616,5 +616,6 @@ $txt['export_begin'] = 'Начать экспорт';
 $txt['export_restart'] = 'Перезапустить';
 $txt['export_restart_confirm'] = 'Это приведет к удалению текущего экспорта профиля и началу работы с новыми настройками. Хотите это сделать?';
 $txt['export_cancel'] = 'Отменить';
+$txt['export_file_desc'] = 'Включенные данные: %1$s. Формат файла: %2$s.';
 
 ?>

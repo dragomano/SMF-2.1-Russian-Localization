@@ -1,5 +1,5 @@
 <?php
-// Version: 2.1 RC2; Search
+// Version: 2.1 RC3; Search
 
 $txt['set_parameters'] = 'Параметры поиска';
 $txt['choose_board'] = 'Выберите разделы, в которых будет производиться поиск';

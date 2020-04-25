@@ -1,5 +1,5 @@
 <?php
-// Version: 2.1 RC2; Admin
+// Version: 2.1 RC3; Admin
 
 global $settings, $scripturl;
 
@@ -659,7 +659,7 @@ $txt['moderation_settings_short'] = 'Предупреждения';
 $txt['signature_settings_short'] = 'Подписи';
 $txt['custom_profile_shorttitle'] = 'Поля профиля';
 $txt['pruning_title'] = 'Очистка логов';
-$txt['pruning_desc'] = 'Следующие опции предназначены для того, чтобы оградить ваши логи от слишком большого разрастания в размерах. Обычно не требуется хранить слишком старые записи.';
+$txt['pruning_desc'] = 'Следующие опции предназначены для того, чтобы уменьшить размер логов форума. Обычно не требуется хранить слишком старые записи.';
 $txt['log_settings'] = 'Настройки логов';
 
 $txt['boards_edit'] = 'Управление разделами';
