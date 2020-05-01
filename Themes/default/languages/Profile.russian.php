@@ -217,7 +217,7 @@ $txt['profile_of_username'] = 'Профиль пользователя %1$s';
 $txt['profileInfo'] = 'Профиль пользователя';
 $txt['showPosts'] = 'Просмотр сообщений';
 $txt['showPosts_help'] = 'В этом разделе можно просмотреть все сообщения, сделанные этим пользователем.';
-$txt['showMessages'] = 'Сообщения';
+$txt['showMessages'] = $txt['posts'] = 'Сообщения';
 $txt['showTopics'] = 'Темы';
 $txt['showUnwatched'] = 'Непросмотренные темы';
 $txt['showAttachments'] = 'Вложения';
@@ -602,7 +602,7 @@ $txt['theme_opt_posting'] = 'Отправка сообщений';
 $txt['theme_opt_moderation'] = 'Модерация';
 $txt['theme_opt_personal_messages'] = 'Личные сообщения';
 
-$txt['export_profile_data'] = 'Скачивание данных профиля';
+$txt['export_profile_data'] = 'Скачать данные профиля';
 $txt['export_profile_data_desc'] = 'В этом разделе можно экспортировать копии данных профиля, сообщения и личные сообщения форума в загружаемый файл.<br>Замечание:<ul class="bbc_list">%1$s</ul>';
 $txt['export_profile_data_desc_list'] = array('Для завершения компиляции ваших данных системе может потребоваться некоторое время.', 'После завершения процесса экспорта на этой странице появится ссылка для скачивания.', 'expiry' => 'Старые файлы экспорта удаляются через %1$d дней.');
 $txt['active_exports'] = 'Идёт экспорт...';

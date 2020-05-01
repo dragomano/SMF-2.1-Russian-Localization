@@ -17,7 +17,7 @@ $txt['smf_installer'] = 'Установка SMF';
 $txt['installer_language'] = 'Язык';
 $txt['installer_language_set'] = 'Установить';
 $txt['congratulations'] = 'Поздравляем, процесс установки завершён!';
-$txt['congratulations_help'] = 'При возникновении любых проблем, связанных с работой форума, не забывайте про <a href="https://www.simplemachines.org/community/index.php" target="_blank" rel="noopener">официальный сайт поддержки</a>.';
+$txt['congratulations_help'] = 'При возникновении любых проблем, связанных с работой форума, не забывайте про <a href="https://www.simplemachines.org/community/index.php" target="_blank" rel="noopener">официальный сайт поддержки</a> и <a href="https://www.simplemachines.ru" target="_blank" rel="noopener">русскоязычное сообщество</a>.';
 $txt['still_writable'] = 'Директория установки всё ещё имеет права на запись. В целях безопасности рекомендуется сделать её доступной только для чтения.';
 $txt['delete_installer'] = 'Нажмите сюда, чтобы удалить файл install.php';
 $txt['delete_installer_maybe'] = '<em>(работает не на всех серверах).</em>';
@@ -97,7 +97,7 @@ $txt['install_settings_reg_email'] = 'Активация по электронн
 $txt['install_settings_reg_admin'] = 'Одобрение пользователя';
 $txt['install_settings_reg_disabled'] = 'Регистрация запрещена';
 $txt['install_settings_reg_mode_info'] = 'Здесь можно изменить режим регистрации новых пользователей для предотвращения нежелательных регистраций сразу же после создания форума.';
-$txt['install_settings_compress'] = 'Gzip сжатие';
+$txt['install_settings_compress'] = 'Сжатие GZIP';
 $txt['install_settings_compress_title'] = 'Сжимать исходящие данные для экономии трафика.';
 // In this string, you can translate the word "PASS" to change what it says when the test passes.
 $txt['install_settings_compress_info'] = 'Эта функция работает не на всех серверах, но может сэкономить вам много трафика.<br>Нажмите <a href="install.php?obgz=1&amp;pass_string=PASS" onclick="return reqWin(this.href, 200, 60);" target="_blank" rel="noopener">сюда</a> для проверки вашего сервера. (Если сжатие поддерживается сервером, появится слово «PASS».)';
@@ -133,15 +133,15 @@ $txt['db_settings_prefix_info'] = 'Префикс для каждой табли
 $txt['db_populate'] = 'База данных заполнена';
 $txt['db_populate_info'] = 'Ваши настройки были сохранены и база данных была заполнена всеми данными, необходимыми для работы форума. Итог заполнения:';
 $txt['db_populate_info2'] = 'Нажмите «Продолжить», чтобы перейти к созданию учётной записи администратора.';
-$txt['db_populate_inserts'] = 'Вставлено %1$d строк.';
-$txt['db_populate_tables'] = 'Создано %1$d таблиц.';
-$txt['db_populate_insert_dups'] = 'Проигнорировано %1$d дублирующихся строк.';
-$txt['db_populate_table_dups'] = 'Проигнорировано %1$d дублирующихся таблиц.';
+$txt['db_populate_inserts'] = 'Вставлено строк: %1$d.';
+$txt['db_populate_tables'] = 'Создано таблиц: %1$d.';
+$txt['db_populate_insert_dups'] = 'Проигнорировано дублирующихся строк: %1$d.';
+$txt['db_populate_table_dups'] = 'Проигнорировано дублирующихся таблиц: %1$d.';
 
 $txt['user_settings'] = 'Создание учётной записи';
 $txt['user_settings_info'] = 'Программа установки создаст учётную запись администратора.';
 $txt['user_settings_username'] = 'Имя пользователя';
-$txt['user_settings_username_info'] = 'Выберите имя, которое хотите использовать.<br>Внимание! Это имя не подлежит изменению в дальнейшем! Можно будет поменять только отображаемое имя.';
+$txt['user_settings_username_info'] = 'Выберите имя, которое хотите использовать в качестве логина.<br>Можно изменить позже.';
 $txt['user_settings_password'] = 'Пароль';
 $txt['user_settings_password_info'] = 'Введите пароль и запомните его!';
 $txt['user_settings_again'] = 'Подтвердите пароль';
