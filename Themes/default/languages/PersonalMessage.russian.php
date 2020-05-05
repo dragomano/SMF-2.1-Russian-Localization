@@ -160,7 +160,7 @@ $txt['pm_edit_rule'] = 'Изменить фильтр';
 $txt['pm_rule_save'] = 'Сохранить фильтр';
 $txt['pm_delete_selected_rule'] = 'Удалить выбранные фильтры';
 // Use entities in the below string.
-$txt['pm_js_delete_rule_confirm'] = 'Вы уверены что хотите удалить выделенные фильтры?';
+$txt['pm_js_delete_rule_confirm'] = 'Удалить выделенные фильтры?';
 $txt['pm_rule_name'] = 'Название';
 $txt['pm_rule_name_desc'] = 'Название фильтра для запоминания';
 $txt['pm_rule_name_default'] = '[НАЗВАНИЕ]';

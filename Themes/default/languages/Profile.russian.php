@@ -550,6 +550,10 @@ $txt['trackEdit_action_email_address'] = 'Имейл';
 $txt['trackEdit_action_id_group'] = 'Основная группа';
 $txt['trackEdit_action_additional_groups'] = 'Дополнительные группы';
 
+// Registration Agreement
+$txt['trackEdit_action_agreement_accepted'] = 'Принял(а) регистрационное соглашение';
+$txt['trackEdit_action_policy_accepted'] = 'Принял(а) политику конфиденциальности';
+
 $txt['trackGroupRequests'] = 'Запросы в группы';
 $txt['trackGroupRequests_title'] = 'Запросы в группы для %1$s';
 $txt['requested_group'] = 'Запрошенные группы';
@@ -617,5 +621,8 @@ $txt['export_restart'] = 'Перезапустить';
 $txt['export_restart_confirm'] = 'Это приведет к удалению текущего экспорта профиля и началу работы с новыми настройками. Хотите это сделать?';
 $txt['export_cancel'] = 'Отменить';
 $txt['export_file_desc'] = 'Включенные данные: %1$s. Формат файла: %2$s.';
+$txt['export_download_original'] = 'Скачать оригинал';
+$txt['export_view_source_button'] = 'Переключить вид';
+$txt['export_open_in_browser'] = 'Пожалуйста, откройте этот файл в веб-браузере, чтобы увидеть удобочитаемую версию.';
 
 ?>

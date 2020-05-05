@@ -57,6 +57,7 @@ $txt['modlog_ac_ban_trigger_hostname'] = ' <em>Имя хоста:</em> {hostname
 $txt['modlog_admin_log'] = 'Логи администрирования';
 $txt['modlog_admin_log_desc'] = 'Ниже показан список всех действий администраторов форума.';
 $txt['modlog_admin_log_no_entries_found'] = 'Записей не найдено.';
+$txt['modlog_admin_log_gdpr_no_delete'] = '<strong>Обратите внимание:</strong> записи об обновлении регистрационного соглашения и политики конфиденциальности не могут быть удалены из этого лога, пока включена защита персональных данных в соответствии с GDPR.';
 
 // Admin type strings.
 $txt['modlog_ac_upgrade'] = 'Форум обновлен до версии {version}';
@@ -74,6 +75,9 @@ $txt['modlog_ac_edited_group'] = 'Изменена группа «{group}»';
 $txt['modlog_ac_added_to_group'] = 'Пользователь «{member}» добавлен в группу «{group}»';
 $txt['modlog_ac_removed_from_group'] = 'Пользователь «{member}» удален из группы «{group}»';
 $txt['modlog_ac_removed_all_groups'] = 'Пользователь «{member}» удален из всех групп';
+
+$txt['modlog_ac_agreement_updated'] = 'Обновлено регистрационное соглашение ({language})';
+$txt['modlog_ac_policy_updated'] = 'Обновлена политика конфиденциальности ({language})';
 
 $txt['modlog_ac_remind_member'] = 'Отправлено уведомление пользователю «{member}» для активации учётной записи';
 $txt['modlog_ac_approve_member'] = 'Одобрена/Активирована учётная запись пользователя «{member}»';
