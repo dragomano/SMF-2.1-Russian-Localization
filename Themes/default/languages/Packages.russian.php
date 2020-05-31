@@ -74,7 +74,7 @@ $txt['package_installed_redirect_go_now'] = 'Перейти';
 $txt['package_installed_redirect_cancel'] = 'Вернуться в менеджер пакетов';
 
 $txt['packages_adding_title'] = 'Получение пакетов';
-$txt['packages_adding'] = 'Ищите новые моды для форума в официальном каталоге модификаций SMF - <strong><a class="bbc_link" href="https://custom.simplemachines.org/mods/" target="_blank" rel="noopener">https://custom.simplemachines.org/mods/</a></strong>.<br>Каждая из модификаций имеет отдельную тему для обсуждения.<br>Обзоры и переводы модификаций можно найти в <a class="bbc_link" href="https://dragomano.ru" target="_blank" rel="noopener">Логове медведя</a>.';
+$txt['packages_adding'] = 'Ищите новые моды для форума в официальном каталоге модификаций SMF - <strong><a class="bbc_link" href="https://custom.simplemachines.org/mods/" target="_blank" rel="noopener">https://custom.simplemachines.org/mods/</a></strong>.<br>Каждая из модификаций имеет отдельную тему для обсуждения.<br>Обзоры и переводы популярных модификаций можно найти в <a class="bbc_link" href="https://dragomano.ru" target="_blank" rel="noopener">Логове медведя</a>.';
 
 $txt['package_upgrade'] = 'Обновить';
 $txt['package_uninstall_readme'] = 'Описание при удалении';
