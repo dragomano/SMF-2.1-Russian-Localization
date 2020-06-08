@@ -130,11 +130,13 @@ $txt['ip_address'] = 'IP-адрес';
 $txt['member_id'] = 'ID';
 
 $txt['unknown'] = 'неизвестно';
-$txt['security_wrong'] = 'Попытка войти под администратором!' . "\n" . 'Referrer: %1$s' . "\n" . 'User-agent: %2$s' . "\n" . 'IP: %3$s';
+// argument(s): HTTP_REFERER (if applicable), HTTP_USER_AGENT, ip address
+$txt['security_wrong'] = "Попытка войти под администратором!\nReferrer: %1\$s\nUser-agent: %2\$s\nIP: %3\$s";
 
 $txt['email_as_html'] = 'Отправлять в HTML-формате (тогда можно будет использовать теги HTML в электронным сообщениях)';
 $txt['email_parsed_html'] = 'Добавить &lt;br&gt; и &amp;nbsp теги в это сообщение.';
-$txt['email_variables'] = 'В этом сообщении можно использовать некоторые «специальные» переменные. Нажмите <a href="' . $scripturl . '?action=helpadmin;help=email_members" onclick="return reqOverlayDiv(this.href);" class="help">здесь</a> для просмотра подробной информации.';
+// argument(s): $scripturl
+$txt['email_variables'] = 'В этом сообщении можно использовать некоторые «специальные» переменные. Нажмите <a href="%1$s?action=helpadmin;help=email_members" onclick="return reqOverlayDiv(this.href);" class="help">здесь</a> для просмотра подробной информации.';
 $txt['email_force'] = 'Отправить сообщение даже тем пользователям, которые отказались от получения новостей.';
 $txt['email_as_pms'] = 'Отправить сообщение этим группам через систему ЛС.';
 $txt['email_continue'] = 'Продолжить';
@@ -251,7 +253,7 @@ $txt['default_language'] = 'Язык форума по умолчанию:';
 $txt['maintenance_subject'] = 'Заголовок';
 $txt['maintenance_message'] = 'Сообщение';
 
-$txt['errorlog_desc'] = 'Журнал ошибок содержит записи обо всех обнаруженных в работе форума ошибках. Для удаления конкретной записи выберите её и нажмите кнопку «%1$s» внизу страницы.';
+$txt['errorlog_desc'] = 'Журнал ошибок содержит записи обо всех обнаруженных в работе форума ошибках.<br>Для удаления конкретной записи выберите её и нажмите кнопку «%1$s» внизу страницы.';
 $txt['errorlog_no_entries'] = 'Записей не найдено.';
 
 $txt['theme_settings'] = 'Свойства темы оформления';
@@ -417,8 +419,10 @@ $txt['use_subdirectories_for_attachments'] = 'Создавать новые па
 $txt['use_subdirectories_for_attachments_note'] = 'Иначе новые папки будут создаваться в корневой папке форума.';
 $txt['basedirectory_for_attachments'] = 'Установить базовую папку для вложений';
 $txt['basedirectory_for_attachments_current'] = 'Текущая базовая папка';
-$txt['basedirectory_for_attachments_warning'] = '<div class="smalltext">Эта папка указана неверно. <br>(<a href="' . $scripturl . '?action=admin;area=manageattachments;sa=attachpaths">Попробовать исправить</a>)</div>';
-$txt['attach_current_dir_warning'] = '<div class="smalltext">Похоже, что есть проблема с этой папкой. <br>(<a href="' . $scripturl . '?action=admin;area=manageattachments;sa=attachpaths">Поробовать исправить</a>)</div>';
+// argument(s): scripturl
+$txt['basedirectory_for_attachments_warning'] = '<div class="smalltext">Эта папка указана неверно.<br>(<a href="%1$s?action=admin;area=manageattachments;sa=attachpaths">Попробовать исправить</a>)</div>';
+// argument(s): scripturl
+$txt['attach_current_dir_warning'] = '<div class="smalltext">Похоже, что есть проблема с этой папкой.<br>(<a href="%1$s?action=admin;area=manageattachments;sa=attachpaths">Поробовать исправить</a>)</div>';
 
 $txt['attachment_transfer'] = 'Перенос вложений';
 $txt['attachment_transfer_desc'] = 'Перенос файлов между папками.';

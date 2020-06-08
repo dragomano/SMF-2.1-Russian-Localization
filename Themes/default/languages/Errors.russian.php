@@ -345,7 +345,8 @@ $txt['profile_error_bad_avatar'] = 'Ваш аватар не является г
 $txt['profile_error_bad_avatar_invalid_url'] = 'Указана неправильная ссылка, проверьте ее.';
 $txt['profile_error_bad_avatar_too_large'] = 'Изображение, которое вы пытаетесь использовать, превосходит настройки максимальной ширины/высоты. Пожалуйста, используйте изображение поменьше.';
 $txt['profile_error_bad_avatar_fail_reencode'] = 'Загруженное изображение было повреждено, и попытка восстановить его не удалась.';
-$txt['profile_error_password_short'] = 'Ваш пароль должен содержать как минимум ' . (empty($modSettings['password_strength']) ? 4 : 8) . ' символов.';
+// argument(s): the minimum length of user passwords as stored in the settings
+$txt['profile_error_password_short'] = 'Ваш пароль должен содержать как минимум %1$s символов.';
 $txt['profile_error_password_restricted_words'] = 'Ваш пароль не должен содержать ваши имя, электронный адрес, либо другую, доступную в вашем профиле, информацию.';
 $txt['profile_error_password_chars'] = 'Ваш пароль должен содержать символы верхнего и нижнего регистров, а также цифры.';
 $txt['profile_error_already_requested_group'] = 'Вы уже направили запрос на вступление в эту группу!';

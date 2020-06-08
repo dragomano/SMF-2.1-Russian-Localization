@@ -99,7 +99,7 @@ $txt['filter_only_url'] = 'Показать сообщения об ошибка
 $txt['filter_only_message'] = 'Показать ошибки только с такими же сообщениями';
 $txt['session'] = 'Сессия';
 $txt['error'] = 'Ошибка';
-$txt['error_url'] = 'URL ошибка на странице';
+$txt['error_url'] = 'URL-адрес страницы, вызвавшей ошибку';
 $txt['error_message'] = 'Сообщение об ошибке';
 $txt['error_file'] = 'Файл';
 $txt['error_line'] = 'Строка';
@@ -115,7 +115,8 @@ $txt['filter_only_type'] = 'Отображать ошибки только эт�
 $txt['filter_only_file'] = 'Отображать ошибки только этого файла';
 $txt['apply_filter_of_type'] = 'Применить фильтр';
 $txt['backtrace_title'] = 'Данные трассировки';
-$txt['backtrace_info'] = '<b>#%1$d</b>: %2$s()<br>Вызов из <a href="' . $scripturl . '?action=admin;area=logs;sa=errorlog;file=%5$s;line=%4$d" onclick="return reqWin(this.href, 600, 480, false);">%3$s в строке %4$d</a>';
+// argument(s): error message, function, filename, line nr, filehash, $scripturl
+$txt['backtrace_info'] = '<b>#%1$d</b>: %2$s()<br>Вызов из <a href="%6$s?action=admin;area=logs;sa=errorlog;file=%5$s;line=%4$d" onclick="return reqWin(this.href, 600, 480, false);">%3$s в строке %4$d</a>';
 
 $txt['errortype_all'] = 'Все ошибки';
 $txt['errortype_general'] = 'Общие';

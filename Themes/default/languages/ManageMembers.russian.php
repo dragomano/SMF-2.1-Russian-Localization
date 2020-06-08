@@ -135,6 +135,6 @@ $txt['check_for_duplicate'] = 'Проверить на двойников';
 $txt['dont_check_for_duplicate'] = 'Не проверять на двойников';
 $txt['duplicates'] = 'Двойники';
 
-$txt['not_activated'] = 'Не активированы';
+$txt['not_activated'] = 'Не активирован';
 
 ?>

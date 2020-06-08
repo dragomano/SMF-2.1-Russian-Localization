@@ -234,7 +234,8 @@ $txt['trackIP'] = 'Проверка IP';
 $txt['trackLogins'] = 'Посещения';
 
 $txt['account_info'] = 'На этой странице собрана информация, идентифицирующая вас на форуме. Для изменения этой информации потребуется ввести пароль.';
-$txt['forumProfile_info'] = 'На этой странице можно изменить информацию о себе. Эти сведения будут отображаться на форуме. Если не считаете необходимым указывать какие-либо данные &mdash; просто пропустите их.';
+// argument(s): forum name
+$txt['forumProfile_info'] = 'На этой странице можно изменить информацию о себе. Эти сведения будут отображаться на %1$s. Если не считаете необходимым указывать какие-либо данные &mdash; просто пропустите их.';
 $txt['theme_info'] = 'На этой странице можно изменить настройки внешнего вида форума.';
 $txt['notification'] = 'Уведомления';
 $txt['notification_info'] = 'Форум предоставляет возможность уведомлять об ответах, о новых темах и важных объявлениях. Здесь можно изменить эти настройки или пересмотреть темы и разделы, уведомления из которых получаете.';
@@ -302,6 +303,7 @@ $txt['avatar_max_size_h'] = 'Максимальный размер: %2$spx в в
 // Use numeric entities in the below three strings.
 $txt['no_reminder_email'] = 'Невозможно отправить письмо с напоминанием пароля.';
 $txt['send_email'] = 'Отправить электронное сообщение';
+$txt['webmaster'] = 'веб-мастеру,';
 $txt['to_ask_password'] = 'чтобы запросить пароль';
 
 $txt['user_email'] = 'Ваше имя или адрес электронной почты';
@@ -482,8 +484,10 @@ $txt['profile_warning_notify_subject'] = 'Тема уведомления';
 $txt['profile_warning_notify_body'] = 'Содержание уведомления';
 $txt['profile_warning_notify_template_subject'] = 'Вы получили предупреждение';
 // Use numeric entities in below string.
-$txt['profile_warning_notify_template_outline'] = '{MEMBER},' . "\n\n" . 'Вы получили предупреждение за %1$s. Пожалуйста, соблюдайте правила форума, иначе мы предпримем другие меры.' . "\n\n" . '{REGARDS}';
-$txt['profile_warning_notify_template_outline_post'] = '{MEMBER},' . "\n\n" . 'Вы получили предупреждение за %1$s в сообщении:' . "\n" . '{MESSAGE}.' . "\n\n" . 'Пожалуйста, соблюдайте правила форума, иначе мы предпримем другие меры.' . "\n\n" . '{REGARDS}';
+// argument(s): one of the reasons defined in $txt['profile_warning_notify_for_*']
+$txt['profile_warning_notify_template_outline'] = "{MEMBER},\n\nВы получили предупреждение за %1\$s. Пожалуйста, соблюдайте правила форума, иначе мы предпримем другие меры.\n\n{REGARDS}";
+// argument(s): one of the reasons defined in $txt['profile_warning_notify_for_*']
+$txt['profile_warning_notify_template_outline_post'] = "{MEMBER},\n\nВы получили предупреждение за %1\$s в сообщении:\n{MESSAGE}.\n\nПожалуйста, соблюдайте правила форума, иначе мы предпримем другие меры.\n\n{REGARDS}";
 $txt['profile_warning_notify_for_spamming'] = 'спам';
 $txt['profile_warning_notify_title_spamming'] = 'СПАМ';
 $txt['profile_warning_notify_for_offence'] = 'публикацию оскорбительного материала';
@@ -526,7 +530,7 @@ $txt['pm_receive_from_admins'] = 'только от администраторо
 $txt['pm_receive_from_buddies'] = 'только от друзей и администраторов';
 
 $txt['popup_messages'] = 'Всплывающее окно при появлении нового сообщения';
-$txt['pm_remove_inbox_label'] = 'Убирать ярлык <em>Входящее</em> при добавлении другого ярлыка';
+$txt['pm_remove_inbox_label'] = 'Убирать метку <em>Входящее</em> при добавлении другой метки';
 $txt['pm_display_mode'] = 'Отображение личных сообщений';
 $txt['pm_display_mode_all'] = 'Все сразу';
 $txt['pm_display_mode_one'] = 'По одному';
@@ -620,14 +624,14 @@ $txt['export_include_posts'] = 'Включить сообщения';
 $txt['export_include_personal_messages'] = 'Включить личные сообщения';
 $txt['export_format'] = 'Формат файла для экспортируемых данных';
 $txt['export_format_desc'] = 'Формат файла для экспортированных данных';
-$txt['export_format_xml_xslt'] = 'Стилизованный XML (удобный для людей и машин)';
-$txt['export_format_html'] = 'HTML (удобный для людей)';
-$txt['export_format_xml'] = 'XML (удобный для машин)';
+$txt['export_format_xml_xslt'] = 'Стилизованный XML (удобен для людей и машин)';
+$txt['export_format_html'] = 'HTML (удобен для людей)';
+$txt['export_format_xml'] = 'XML (удобен для машин)';
 $txt['export_begin'] = 'Начать экспорт';
 $txt['export_restart'] = 'Перезапустить';
 $txt['export_restart_confirm'] = 'Это приведет к удалению текущего экспорта профиля и началу работы с новыми настройками. Хотите это сделать?';
 $txt['export_cancel'] = 'Отменить';
-$txt['export_file_desc'] = 'Включенные данные: %1$s. Формат файла: %2$s.';
+$txt['export_file_desc'] = 'Экспортируемые данные: %1$s. Формат файла: %2$s.';
 $txt['export_download_original'] = 'Скачать оригинал';
 $txt['export_view_source_button'] = 'Переключить вид';
 $txt['export_open_in_browser'] = 'Пожалуйста, откройте этот файл в веб-браузере, чтобы увидеть удобочитаемую версию.';

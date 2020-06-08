@@ -31,7 +31,8 @@ $txt['whoall_coppa'] = 'Заполняет сведения о родителя�
 $txt['whoall_credits'] = 'Просматривает информацию о разработчиках.';
 $txt['whoall_emailuser'] = 'Отправляет письмо другому пользователю.';
 $txt['whoall_groups'] = 'Просматривает группы.';
-$txt['whoall_help'] = 'Просматривает <a href="' . $scripturl . '?action=help">справочный раздел</a>.';
+// argument(s): $scripturl
+$txt['whoall_help'] = 'Просматривает <a href="%1$s?action=help">справочный раздел</a>.';
 $txt['whoall_helpadmin'] = 'Читает подсказку.';
 $txt['whoall_pm'] = 'Просматривает личные сообщения.';
 $txt['whoall_login'] = 'Входит на форум.';
@@ -42,7 +43,8 @@ $txt['whoall_news'] = 'Просматривает новости.';
 $txt['whoall_notify'] = 'Изменяет настройки уведомлений.';
 $txt['whoall_notifyboard'] = 'Изменяет настройки уведомлений.';
 $txt['whoall_quickmod'] = 'Модерирует раздел.';
-$txt['whoall_recent'] = 'Просматривает список <a href="' . $scripturl . '?action=recent">последних сообщений</a>.';
+// argument(s): $scripturl
+$txt['whoall_recent'] = 'Просматривает список <a href="%1$s?action=recent">последних сообщений</a>.';
 $txt['whoall_reminder'] = 'Восстанавливает пароль.';
 $txt['whoall_reporttm'] = 'Отправляет отчёт модератору.';
 $txt['whoall_restoretopic'] = 'Восстанавливает тему.';
@@ -52,7 +54,8 @@ $txt['whoall_spellcheck'] = 'Пользуется проверкой орфог�
 $txt['whoall_unread'] = 'Просматривает непрочитанные темы с последнего визита.';
 $txt['whoall_unreadreplies'] = 'Просматривает непрочитанные сообщения с последнего визита.';
 $txt['whoall_unwatchtopic'] = 'Отмечает темы как не просмотренные.';
-$txt['whoall_who'] = 'Просматривает <a href="' . $scripturl . '?action=who">текущий онлайн</a>.';
+// argument(s): $scripturl
+$txt['whoall_who'] = 'Просматривает <a href="%1$s?action=who">текущий онлайн</a>.';
 
 $txt['whoall_collapse_collapse'] = 'Сворачивает категорию.';
 $txt['whoall_collapse_expand'] = 'Разворачивает категорию.';
@@ -60,29 +63,48 @@ $txt['whoall_pm_removeall'] = 'Удаляет личные сообщения.';
 $txt['whoall_pm_send'] = 'Пишет личное сообщение.';
 $txt['whoall_pm_send2'] = 'Отправляет личное сообщение.';
 
-$txt['whotopic_announce'] = 'Анонсирует тему "<a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>".';
+// argument(s): $id_topic, $subject, $scripturl
+$txt['whotopic_announce'] = 'Анонсирует тему <a href="%3$s?topic=%1$d.0">%2$s</a>.';
 $txt['whotopic_attachapprove'] = 'Одобряет вложение.';
 $txt['whotopic_dlattach'] = 'Просматривает вложение.';
 $txt['whotopic_deletemsg'] = 'Удаляет сообщение.';
-$txt['whotopic_editpoll'] = 'Редактирует голосование "<a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>".';
-$txt['whotopic_editpoll2'] = 'Редактирует голосование в теме "<a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>".';
-$txt['whotopic_jsmodify'] = 'Изменяет сообщение в теме "<a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>".';
-$txt['whotopic_lock'] = 'Закрывает тему "<a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>".';
-$txt['whotopic_lockvoting'] = 'Закрывает голосование в теме "<a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>".';
-$txt['whotopic_mergetopics'] = 'Объединяет тему "<a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>" с другой.';
-$txt['whotopic_movetopic'] = 'Переносит тему "<a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>" в другой раздел.';
-$txt['whotopic_movetopic2'] = 'Перемещает тему "<a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>" в другой раздел.';
-$txt['whotopic_post'] = 'Пишет ответ в тему <a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>.';
-$txt['whotopic_post2'] = 'Отправляет ответ в тему <a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>.';
-$txt['whotopic_printpage'] = 'Просматривает версию для печати "<a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>".';
-$txt['whotopic_quickmod2'] = 'Модерирует тему <a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>.';
-$txt['whotopic_removepoll'] = 'Удаляет голосование в теме "<a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>".';
-$txt['whotopic_removetopic2'] = 'Удаляет тему <a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>.';
-$txt['whotopic_splittopics'] = 'Разделяет тему "<a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>" на две разных.';
-$txt['whotopic_sticky'] = 'Закрепляет тему "<a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>".';
-$txt['whotopic_vote'] = 'Голосует в теме <a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>.';
+// argument(s): $id_topic, $subject, $scripturl
+$txt['whotopic_editpoll'] = 'Редактирует голосование <a href="%3$s?topic=%1$d.0">%2$s</a>.';
+// argument(s): $id_topic, $subject, $scripturl
+$txt['whotopic_editpoll2'] = 'Редактирует голосование в теме <a href="%3$s?topic=%1$d.0">%2$s</a>.';
+// argument(s): $id_topic, $subject, $scripturl
+$txt['whotopic_jsmodify'] = 'Изменяет сообщение в теме <a href="%3$s?topic=%1$d.0">%2$s</a>.';
+// argument(s): $id_topic, $subject, $scripturl
+$txt['whotopic_lock'] = 'Закрывает тему <a href="%3$s?topic=%1$d.0">%2$s</a>.';
+// argument(s): $id_topic, $subject, $scripturl
+$txt['whotopic_lockvoting'] = 'Закрывает голосование в теме <a href="%3$s?topic=%1$d.0">%2$s</a>.';
+// argument(s): $id_topic, $subject, $scripturl
+$txt['whotopic_mergetopics'] = 'Объединяет тему <a href="%3$s?topic=%1$d.0">%2$s</a> с другой.';
+// argument(s): $id_topic, $subject, $scripturl
+$txt['whotopic_movetopic'] = 'Переносит тему <a href="%3$s?topic=%1$d.0">%2$s</a> в другой раздел.';
+// argument(s): $id_topic, $subject, $scripturl
+$txt['whotopic_movetopic2'] = 'Перемещает тему <a href="%3$s?topic=%1$d.0">%2$s</a> в другой раздел.';
+// argument(s): $id_topic, $subject, $scripturl
+$txt['whotopic_post'] = 'Пишет ответ в тему <a href="%3$s?topic=%1$d.0">%2$s</a>.';
+// argument(s): $id_topic, $subject, $scripturl
+$txt['whotopic_post2'] = 'Отправляет ответ в тему <a href="%3$s?topic=%1$d.0">%2$s</a>.';
+// argument(s): $id_topic, $subject, $scripturl
+$txt['whotopic_printpage'] = 'Просматривает версию для печати <a href="%3$s?topic=%1$d.0">%2$s</a>.';
+// argument(s): $id_topic, $subject, $scripturl
+$txt['whotopic_quickmod2'] = 'Модерирует тему <a href="%3$s?topic=%1$d.0">%2$s</a>.';
+// argument(s): $id_topic, $subject, $scripturl
+$txt['whotopic_removepoll'] = 'Удаляет голосование в теме <a href="%3$s?topic=%1$d.0">%2$s</a>.';
+// argument(s): $id_topic, $subject, $scripturl
+$txt['whotopic_removetopic2'] = 'Удаляет тему <a href="%3$s?topic=%1$d.0">%2$s</a>.';
+// argument(s): $id_topic, $subject, $scripturl
+$txt['whotopic_splittopics'] = 'Разделяет тему <a href="%3$s?topic=%1$d.0">%2$s</a> на две разных.';
+// argument(s): $id_topic, $subject, $scripturl
+$txt['whotopic_sticky'] = 'Закрепляет тему <a href="%3$s?topic=%1$d.0">%2$s</a>.';
+// argument(s): $id_topic, $subject, $scripturl
+$txt['whotopic_vote'] = 'Голосует в теме <a href="%3$s?topic=%1$d.0">%2$s</a>.';
 
-$txt['whopost_quotefast'] = 'Цитирует сообщение в теме "<a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>".';
+// argument(s): $id_topic, $subject, $scripturl
+$txt['whopost_quotefast'] = 'Цитирует сообщение в теме <a href="%3$s?topic=%1$d.0">%2$s</a>.';
 
 $txt['whoadmin_editagreement'] = 'Редактирует регистрационное соглашение.';
 $txt['whoadmin_featuresettings'] = 'Изменяет настройки форума.';
@@ -96,10 +118,12 @@ $txt['whoadmin_theme'] = 'Изменяет настройки темы офор�
 $txt['whoadmin_trackip'] = 'Проверяет IP-адрес пользователя.';
 
 $txt['whoallow_manageboards'] = 'Редактирует настройки разделов и категорий.';
-$txt['whoallow_admin'] = 'Находится в <a href="' . $scripturl . '?action=admin">Центре администрирования</a>.';
+// argument(s): $scripturl
+$txt['whoallow_admin'] = 'Находится в <a href="%1$s?action=admin">Центре администрирования</a>.';
 $txt['whoallow_ban'] = 'Редактирует бан лист.';
 $txt['whoallow_boardrecount'] = 'Пересчитывает статистику форума.';
-$txt['whoallow_calendar'] = 'Просматривает <a href="' . $scripturl . '?action=calendar">календарь</a>.';
+// argument(s): $scripturl
+$txt['whoallow_calendar'] = 'Просматривает <a href="%1$s?action=calendar">календарь</a>.';
 $txt['whoallow_editnews'] = 'Редактирует новости.';
 $txt['whoallow_mailing'] = 'Отправляет электронное сообщение.';
 $txt['whoallow_maintain'] = 'Выполняет обслуживание форума.';
@@ -117,24 +141,36 @@ $txt['whoallow_reports'] = 'Просматривает отчёты';
 $txt['whoallow_membergroups'] = 'Управляет пользовательскими группами';
 $txt['whoallow_regcenter'] = 'Просматривает центр регистрации';
 $txt['whoallow_paidsubscribe'] = 'Управляет платными подписками';
-$txt['whoallow_moderate'] = 'Просматривает <a href="' . $scripturl . '?action=moderate">центр модерации</a>.';
-$txt['whoallow_mlist'] = 'Просматривает <a href="' . $scripturl . '?action=mlist">список пользователей</a>.';
+// argument(s): $scripturl
+$txt['whoallow_moderate'] = 'Просматривает <a href="%1$s?action=moderate">центр модерации</a>.';
+// argument(s): $scripturl
+$txt['whoallow_mlist'] = 'Просматривает <a href="%1$s?action=mlist">список пользователей</a>.';
 $txt['whoallow_optimizetables'] = 'Оптимизирует таблицы форума.';
 $txt['whoallow_repairboards'] = 'Восстанавливает таблицы форума.';
-$txt['whoallow_search'] = 'Пользуется <a href="' . $scripturl . '?action=search">поиском</a>.';
+// argument(s): $scripturl
+$txt['whoallow_search'] = 'Пользуется <a href="%1$s?action=search">поиском</a>.';
 $txt['whoallow_search2'] = 'Просматривает результаты поиска.';
-$txt['whoallow_stats'] = 'Просматривает <a href="' . $scripturl . '?action=stats">статистику форума</a>.';
+// argument(s): $scripturl
+$txt['whoallow_stats'] = 'Просматривает <a href="%1$s?action=stats">статистику форума</a>.';
 $txt['whoallow_viewerrorlog'] = 'Просматривает список ошибок.';
 $txt['whoallow_viewmembers'] = 'Просматривает список пользователей.';
 
-$txt['who_topic'] = 'Просматривает тему <a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>.';
-$txt['who_board'] = 'Просматривает раздел <a href="' . $scripturl . '?board=%1$d.0">%2$s</a>.';
-$txt['who_index'] = 'Просматривает главную страницу <a href="' . $scripturl . '">' . $context['forum_name_html_safe'] . '</a>.';
-$txt['who_viewprofile'] = 'Просматривает профиль пользователя <a href="' . $scripturl . '?action=profile;u=%1$d">%2$s</a>.';
-$txt['who_viewownprofile'] = 'Просматривает <a href="' . $scripturl . '?action=profile;u=%1$d">свой профиль</a>.';
-$txt['who_profile'] = 'Редактирует профиль пользователя <a href="' . $scripturl . '?action=profile;u=%1$d">%2$s</a>.';
-$txt['who_post'] = 'Создает новую тему в <a href="' . $scripturl . '?board=%1$d.0">%2$s</a>.';
-$txt['who_poll'] = 'Создает новое голосование в <a href="' . $scripturl . '?board=%1$d.0">%2$s</a>.';
+// argument(s): $id_topic, $subject, $scripturl
+$txt['who_topic'] = 'Просматривает тему <a href="%3$s?topic=%1$d.0">%2$s</a>.';
+// argument(s): $id_topic, $subject, $scripturl
+$txt['who_board'] = 'Просматривает раздел <a href="%3$s?board=%1$d.0">%2$s</a>.';
+// argument(s): $scripturl, $context['forum_name_html_safe']
+$txt['who_index'] = 'Просматривает главную страницу <a href="%1$s">%2$s</a>.';
+// argument(s): $id_topic, $subject, $scripturl
+$txt['who_viewprofile'] = 'Просматривает профиль пользователя <a href="%3$s?action=profile;u=%1$d">%2$s</a>.';
+// argument(s): $id_topic, $subject, $scripturl
+$txt['who_viewownprofile'] = 'Просматривает <a href="%3$s?action=profile;u=%1$d">свой профиль</a>.';
+// argument(s): $id_topic, $subject, $scripturl
+$txt['who_profile'] = 'Редактирует профиль пользователя <a href="%3$s?action=profile;u=%1$d">%2$s</a>.';
+// argument(s): $id_topic, $subject, $scripturl
+$txt['who_post'] = 'Создает новую тему в <a href="%3$s?board=%1$d.0">%2$s</a>.';
+// argument(s): $id_topic, $subject, $scripturl
+$txt['who_poll'] = 'Создает новое голосование в <a href="%3$s?board=%1$d.0">%2$s</a>.';
 
 // Credits text
 $txt['credits'] = 'Благодарности';
