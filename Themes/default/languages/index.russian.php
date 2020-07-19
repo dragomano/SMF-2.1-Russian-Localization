@@ -807,13 +807,13 @@ $txt['activate_changed_email_title'] = 'Электронный адрес изм
 $txt['activate_changed_email_desc'] = 'Вы изменили свой электронный адрес. Для его активации перейдите по ссылке в полученном письме.';
 $txt['modSettings_title'] = 'Свойства и параметры';
 $txt['package'] = 'Менеджер пакетов';
-$txt['errorlog'] = 'Логи ошибок';
+$txt['errorlog'] = 'Журнал ошибок';
 $txt['edit_permissions'] = 'Права доступа';
 $txt['mc_unapproved_attachments'] = 'Неодобренные вложения';
 $txt['mc_unapproved_poststopics'] = 'Неодобренные сообщения и темы';
 $txt['mc_reported_posts'] = 'Жалобы на сообщения';
 $txt['mc_reported_members'] = 'Жалобы на пользователей';
-$txt['modlog_view'] = 'Логи модерации';
+$txt['modlog_view'] = 'Журнал модерации';
 $txt['calendar_menu'] = 'Просмотр календаря';
 
 // @todo Send email strings - should move?

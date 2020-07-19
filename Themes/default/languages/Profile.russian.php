@@ -109,7 +109,7 @@ $txt['watched_boards'] = 'Подписки на разделы';
 $txt['watched_boards_desc'] = 'На этой страницы вы можете увидеть разделы, на которые подписаны. Когда появится новое сообщение в разделе, вы получите уведомление.';
 
 $txt['notification_general'] = 'Основные настройки';
-$txt['notify_settings'] = 'Уведомлять:';
+$txt['notify_settings'] = 'Настройки уведомлений';
 $txt['notify_save'] = 'Сохранить';
 $txt['notify_important_email'] = 'Получать новости, объявления и важные уведомления форума по электронной почте';
 $txt['notify_regularity'] = 'Включить уведомления в темах и разделах';
@@ -134,7 +134,7 @@ $txt['alert_group_msg'] = 'Сообщения';
 $txt['alert_opt_pm_notify'] = 'Если включено, уведомления по электронной почте для:';
 $txt['alert_opt_msg_notify_type'] = 'Уведомлять меня:';
 $txt['alert_opt_msg_auto_notify'] = 'Подписка на темы, которые я создаю и в которые отвечаю';
-$txt['alert_opt_msg_receive_body'] = 'Присылать текст сообщения в электронном сообщении';
+$txt['alert_opt_msg_receive_body'] = 'Присылать текст сообщения в имейле';
 $txt['alert_opt_msg_notify_pref'] = 'Как часто уведомлять:';
 $txt['alert_opt_msg_notify_pref_never'] = 'никогда';
 $txt['alert_opt_msg_notify_pref_instant'] = 'немедленно';
@@ -306,11 +306,9 @@ $txt['send_email'] = 'Отправить электронное сообщени
 $txt['webmaster'] = 'веб-мастеру,';
 $txt['to_ask_password'] = 'чтобы запросить пароль';
 
-$txt['user_email'] = 'Ваше имя или адрес электронной почты';
+$txt['user_email'] = 'Ваше имя или имейл';
 
 // Use numeric entities in the below two strings.
-$txt['reminder_subject'] = 'Новый пароль для ' . $context['forum_name'];
-$txt['reminder_mail'] = 'Вы воспользовались функцией восстановления пароля для своей учётной записи. Чтобы установить новый пароль, проследуйте по ссылке';
 $txt['reminder_sent'] = 'Письмо успешно отправлено на указанный электронный адрес. Нажмите на ссылку в полученном письме, чтобы установить новый пароль.';
 $txt['reminder_set_password'] = 'Установка пароля';
 $txt['reminder_password_set'] = 'Пароль успешно установлен';
@@ -624,9 +622,9 @@ $txt['export_include_posts'] = 'Включить сообщения';
 $txt['export_include_personal_messages'] = 'Включить личные сообщения';
 $txt['export_format'] = 'Формат файла для экспортируемых данных';
 $txt['export_format_desc'] = 'Формат файла для экспортированных данных';
-$txt['export_format_xml_xslt'] = 'Стилизованный XML (удобен для людей и машин)';
-$txt['export_format_html'] = 'HTML (удобен для людей)';
-$txt['export_format_xml'] = 'XML (удобен для машин)';
+$txt['export_format_xml_xslt'] = 'Стилизованный XML (понятен людям и машинам)';
+$txt['export_format_html'] = 'HTML (понятен людям)';
+$txt['export_format_xml'] = 'XML (понятен машинам)';
 $txt['export_begin'] = 'Начать экспорт';
 $txt['export_restart'] = 'Перезапустить';
 $txt['export_restart_confirm'] = 'Это приведет к удалению текущего экспорта профиля и началу работы с новыми настройками. Хотите это сделать?';

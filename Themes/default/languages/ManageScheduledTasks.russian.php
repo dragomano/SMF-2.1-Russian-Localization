@@ -49,13 +49,13 @@ $txt['scheduled_task_edit_start_time'] = 'Время запуска';
 $txt['scheduled_task_edit_start_time_desc'] = 'Часы:минуты';
 $txt['scheduled_task_time_offset'] = 'Обратите внимание: время запуска задачи должно указываться с учетом текущего времени сервера: %1$s';
 
-$txt['scheduled_view_log'] = 'Просмотр логов';
-$txt['scheduled_log_empty'] = 'Логов задач нет.';
+$txt['scheduled_view_log'] = 'Просмотр журналов';
+$txt['scheduled_log_empty'] = 'Записей нет.';
 $txt['scheduled_log_time_run'] = 'Когда выполнена';
 $txt['scheduled_log_time_taken'] = 'Результат';
 $txt['scheduled_log_time_taken_seconds'] = '%1$d сек.';
-$txt['scheduled_log_empty_log'] = 'Очистить лог';
-$txt['scheduled_log_empty_log_confirm'] = 'Хотите полностью очистить лог?';
+$txt['scheduled_log_empty_log'] = 'Очистить журнал';
+$txt['scheduled_log_empty_log_confirm'] = 'Хотите полностью очистить журнал?';
 
 $txt['scheduled_task_remove_old_drafts'] = 'Удаление старых черновиков';
 $txt['scheduled_task_desc_remove_old_drafts'] = 'Удаляет старые черновики, которые старше заданного в настройках числа дней.';

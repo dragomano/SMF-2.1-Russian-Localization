@@ -272,7 +272,7 @@ $txt['upgrade_maintenance_title'] = 'Заголовок для режима об
 $txt['upgrade_maintenance_message'] = 'Сообщение для режима обслуживания:';
 $txt['upgrade_customize'] = 'Настроить';
 $txt['upgrade_debug_info'] = 'Вывод дополнительной отладочной информации';
-$txt['upgrade_empty_errorlog'] = 'Очистить лог ошибок перед обновлением';
+$txt['upgrade_empty_errorlog'] = 'Очистить журнал ошибок перед обновлением';
 $txt['upgrade_delete_karma'] = 'Удалить все настройки кармы и информацию из БД';
 $txt['upgrade_stats_collection'] = 'Разрешить Simple Machines собирать ежемесячную статистику.';
 $txt['upgrade_stats_info'] = 'При включении данной опции Simple Machines будет посещать ваш сайт раз в месяц для сбора обычной статистики. Это поможет нам принять решение по оптимизации программного обеспечения. Для получения подробной информации посетите <a href="%1$s" target="_blank" rel="noopener">информационную страницу</a>.';
