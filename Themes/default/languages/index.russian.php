@@ -822,8 +822,8 @@ $txt['send_email'] = 'Отправить электронное сообщени
 $txt['ignoring_user'] = 'Вы игнорируете этого пользователя.';
 $txt['show_ignore_user_post'] = 'Показать сообщение.';
 
-$txt['spider'] = 'Паук';
-$txt['spiders'] = 'Пауков';
+$txt['spider'] = 'Бот';
+$txt['spiders'] = 'Ботов';
 
 $txt['downloads'] = 'Скачано';
 $txt['filesize'] = 'Размер файла';
