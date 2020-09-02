@@ -1,7 +1,7 @@
 <?php
 // Version: 2.1 RC3; Who
 
-global $scripturl, $context;
+
 
 $txt['who_hidden'] = 'Скрытый пользователь. Просмотр недоступен.';
 $txt['who_admin'] = 'Просматривает центр администрирования';

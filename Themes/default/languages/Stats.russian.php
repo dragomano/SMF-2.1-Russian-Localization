@@ -40,6 +40,6 @@ $txt['ssi_comments'] = 'комментариев';
 $txt['ssi_write_comment'] = 'Написать комментарий';
 $txt['ssi_no_guests'] = 'Вы не можете указать раздел, недоступный гостям. Проверьте ID раздела и попробуйте снова.';
 // argument(s): forum name
-$txt['xml_rss_desc'] = 'Новости %1$s';
+$txt['xml_rss_desc'] = '%1$s — Новости';
 
 ?>

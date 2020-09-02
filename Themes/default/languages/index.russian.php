@@ -118,14 +118,14 @@ $txt['page'] = 'Страница';
 $txt['prev'] = 'предыдущая страница';
 $txt['next'] = 'следующая страница';
 
-$txt['lock_unlock'] = 'Заблокировать/Разблокировать тему';
+$txt['lock_unlock'] = 'Заблокировать/разблокировать тему';
 $txt['post'] = 'Отправить';
 $txt['error_occured'] = 'Ошибка!';
 $txt['at'] = 'в';
 $txt['by'] = 'от';
 $txt['logout'] = 'Выход';
 $txt['started_by'] = 'Автор';
-$txt['topic_started_by'] = 'Тему начал <strong>%1$s</strong> в <em>%2$s</em>';
+$txt['topic_started_by'] = 'Тема создана пользователем <strong>%1$s</strong> в <em>%2$s</em>';
 $txt['replies'] = 'Ответов';
 $txt['last_post'] = 'Последний ответ';
 $txt['first_post'] = 'Первое сообщение';
@@ -271,7 +271,6 @@ $txt['icon_cry'] = 'Плачущий';
 $txt['moderator'] = 'Модератор';
 $txt['moderators'] = 'Модераторы';
 
-$txt['mark_board_read'] = 'Отметить весь раздел прочитанным';
 $txt['views'] = 'Просмотров';
 $txt['new'] = 'Новинка';
 
@@ -461,8 +460,6 @@ $txt['new_merged_topic'] = 'Новая объединенная тема';
 $txt['topic_to_merge'] = 'Тема для объединения';
 $txt['target_board'] = 'Раздел для новой темы';
 $txt['target_topic'] = 'Объединить с темой';
-$txt['merge_confirm'] = 'Хотите объединить?';
-$txt['with'] = 'с';
 $txt['merge_desc'] = 'Эта функция объединяет две темы в одну. Сообщения будут упорядочены по дате. Самое раннее сообщение будет первым в объединённой теме.';
 
 $txt['set_sticky'] = 'Закрепить тему';
@@ -594,7 +591,7 @@ $txt['add_poll'] = 'Добавить голосование';
 $txt['poll_options_limit'] = 'Доступно вариантов ответа: %1$s.';
 $txt['poll_remove'] = 'Удалить голосование';
 $txt['poll_remove_warn'] = 'Хотите удалить голосование?';
-$txt['poll_results_expire'] = 'Результаты будут показаны после окончания голосования';
+$txt['poll_results_expire'] = 'Результаты будут отображены после окончания голосования';
 $txt['poll_expires_on'] = 'Голосование заканчивается';
 $txt['poll_expired_on'] = 'Голосование закончилось';
 $txt['poll_change_vote'] = 'Удалить голос';
@@ -616,7 +613,6 @@ $txt['quickmod_confirm'] = 'Уверены?';
 $txt['spell_check'] = 'Проверка орфографии';
 
 $txt['quick_reply'] = 'Быстрый ответ';
-$txt['quick_reply_desc'] = 'В <em>быстром ответе</em> можно использовать форумные теги и смайлики.';
 $txt['quick_reply_warning'] = 'Внимание: тема заблокирована! Ответить в ней может только модератор или администратор форума.';
 $txt['quick_reply_verification'] = 'После отправки сообщения произойдёт перенаправление на страницу полного ответа, чтобы подтвердить его %1$s.';
 $txt['quick_reply_verification_guests'] = '(требуется для всех гостей)';
@@ -630,12 +626,6 @@ $txt['notification_disable_topic'] = 'Отключить уведомления?
 
 // Mentions
 $txt['mentions'] = 'Упоминания';
-
-// Privacy
-$txt['privacy'] = 'Конфиденциальность';
-
-// Policy
-$txt['policy'] = 'Политика';
 
 // Likes
 $txt['likes'] = 'Лайки';
@@ -660,8 +650,7 @@ $txt['report_profile'] = 'Пожаловаться на профиль %1$s';
 $txt['unread_topics_visit'] = 'Непрочитанные темы с последнего посещения';
 // argument(s): scripturl
 $txt['unread_topics_visit_none'] = 'Нет непрочитанных тем с момента вашего последнего посещения. <a href="%1$s?action=unread;all">Просмотреть все непрочитанные темы</a>.';
-// argument(s): scripturl
-$txt['updated_topics_visit_none'] = 'Нет обновленных тем с момента вашего последнего посещения. <a href="%1$s?action=unread;all">Просмотреть все непрочитанные темы</a>.';
+$txt['updated_topics_visit_none'] = 'Нет обновленных тем с момента вашего последнего посещения.';
 $txt['unread_topics_all'] = 'Все непрочитанные темы';
 $txt['unread_replies'] = 'Темы с непрочитанными ответами';
 
@@ -917,7 +906,6 @@ $txt['mobile_moderation'] = 'Модерация';
 $txt['mobile_user_menu'] = 'Адаптивная навигация';
 
 // Formats for lists in a sentence (e.g. "Alice, Bob, and Charlie")
-// Feel free to add or remove entries here as necessary for your language
 // Examples:
 // 	$txt['sentence_list_format'][2] specifies a format for a list with two items
 // 	$txt['sentence_list_format']['n'] specifies the default format

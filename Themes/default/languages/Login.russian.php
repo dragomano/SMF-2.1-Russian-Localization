@@ -1,8 +1,6 @@
 <?php
 // Version: 2.1 RC3; Login
 
-global $context;
-
 // Registration agreement page.
 $txt['registration_agreement'] = 'Регистрационное соглашение';
 $txt['agreement_agree'] = 'Я принимаю соглашение';
@@ -12,12 +10,11 @@ $txt['privacy_policy'] = 'Политика конфиденциальности'
 $txt['agreement_policy_agree'] = 'Я принимаю условия настоящего соглашения и политику конфиденциальности.';
 $txt['agreement_policy_agree_coppa_above'] = 'Я принимаю условия настоящего соглашения и политику конфиденциальности, и мне как минимум %1$d лет.';
 $txt['agreement_policy_agree_coppa_below'] = 'Я принимаю условия настоящего соглашения и политику конфиденциальности, и мне меньше %1$d лет.';
+$txt['policy_agree'] = 'Я принимаю условия политики.';
+$txt['policy_agree_coppa_above'] = 'Я принимаю условия политики конфиденциальности, и мне как минимум %1$d лет.';
+$txt['policy_agree_coppa_below'] = 'Я принимаю условия политики конфиденциальности, и мне меньше %1$d лет.';
 $txt['agree_coppa_above'] = 'Мне как минимум %1$d лет.';
 $txt['agree_coppa_below'] = 'Мне меньше %1$d лет.';
-
-// Registration policy page.
-$txt['registration_policy'] = 'Политика регистрации';
-$txt['policy_agree'] = 'Я принимаю условия политики.';
 
 // Registration form.
 $txt['registration_form'] = 'Регистрационная форма';
@@ -90,7 +87,6 @@ $txt['setting_registration_standard'] = 'Мгновенная регистрац
 $txt['setting_registration_activate'] = 'Активация по электронной почте';
 $txt['setting_registration_approval'] = 'Одобрение администратором';
 $txt['setting_send_welcomeEmail'] = 'Отправлять приветствие новым пользователям';
-$txt['setting_disableRegisterCheck'] = 'Отключить блокировку регистрации людей с одного и того же устройства';
 
 $txt['setting_coppaAge'] = 'Минимальный возраст пользователя для успешной регистрации';
 $txt['setting_coppaType'] = 'Действия, выполняемые при регистрации пользователя моложе указанного возраста';
@@ -100,7 +96,6 @@ $txt['setting_coppaPost'] = 'Имейл, на который должно быт
 $txt['setting_coppaPost_desc'] = 'Только предупредить, если пользователь моложе установленного возраста';
 $txt['setting_coppaFax'] = 'Номер факса, на который должно быть прислано одобрение о разрешении регистрации';
 $txt['setting_coppaPhone'] = 'Ваш контактный номер для связи с родителями';
-$txt['setting_announcements_default'] = 'Включить "' . $txt['notify_announcements'] . '" по умолчанию.';
 
 $txt['admin_register'] = 'Регистрация нового пользователя';
 $txt['admin_register_desc'] = 'Здесь можно вручную зарегистрировать новых пользователей и, при желании, отправить им их регистрационные данные.';
@@ -117,12 +112,11 @@ $txt['admin_register_group'] = 'Основная группа';
 $txt['admin_register_group_desc'] = 'Группа, к которой будет принадлежать новый пользователь';
 $txt['admin_register_group_none'] = '(нет основной группы)';
 $txt['admin_register_done'] = 'Пользователь %1$s успешно зарегистрирован!';
-$txt['admin_register_require_agreement'] = 'Требовать от пользователей принятия регистрационного соглашения';
-$txt['admin_register_require_policy'] = 'Требовать от пользователей принятия политики конфиденциальности';
 
 $txt['coppa_title'] = 'Форум с ограничением по возрасту';
 // argument(s): $context['forum_name_html_safe']
 $txt['coppa_after_registration'] = 'Спасибо за регистрацию на форуме %1$s.<br><br>Так как тебе меньше {MINIMUM_AGE} лет, мы должны получить от твоих родителей или опекунов разрешение использовать этот форум. Чтобы активировать учётную запись, пожалуйста, распечатай эту форму:';
+
 $txt['coppa_form_link_popup'] = 'Открыть форму в новом окне';
 $txt['coppa_form_link_download'] = 'Загрузить форму как текстовый файл';
 $txt['coppa_send_to_one_option'] = 'Попроси родителей/опекунов заполнить форму:';

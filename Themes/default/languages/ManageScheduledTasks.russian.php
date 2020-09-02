@@ -47,7 +47,7 @@ $txt['scheduled_task_edit_repeat'] = 'Повторять задачу раз в'
 $txt['scheduled_task_edit_interval'] = 'Интервал';
 $txt['scheduled_task_edit_start_time'] = 'Время запуска';
 $txt['scheduled_task_edit_start_time_desc'] = 'Часы:минуты';
-$txt['scheduled_task_time_offset'] = 'Обратите внимание: время запуска задачи должно указываться с учетом текущего времени сервера: %1$s';
+$txt['scheduled_task_time_offset'] = 'Обратите внимание: время запуска задачи должно указываться с учётом текущего времени сервера: %1$s';
 
 $txt['scheduled_view_log'] = 'Просмотр журналов';
 $txt['scheduled_log_empty'] = 'Записей нет.';
