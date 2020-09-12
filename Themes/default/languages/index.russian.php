@@ -1,7 +1,7 @@
 <?php
 // Version: 2.1 RC3; Index
 
-global $forum_copyright, $scripturl, $context, $boardurl;
+global $forum_copyright;
 
 // Native name, please use full HTML entities to write your language's name.
 $txt['native_name'] = '&#1056;&#1091;&#1089;&#1089;&#1082;&#1080;&#1081;';
@@ -130,7 +130,7 @@ $txt['replies'] = 'Ответов';
 $txt['last_post'] = 'Последний ответ';
 $txt['first_post'] = 'Первое сообщение';
 $txt['last_poster'] = 'Последний ответ от';
-$txt['last_post_message'] = '<strong>Последний ответ: </strong>%3$s<br>%2$s от %1$s';
+$txt['last_post_message'] = '%3$s<br>%2$s от %1$s';
 $txt['last_post_topic'] = '%1$s<br>от %2$s';
 $txt['post_by_member'] = '<strong>%1$s</strong> от <strong>%2$s</strong><br>';
 $txt['boardindex_total_posts'] = 'Сообщений: %1$s, тем: %2$s, пользователей: %3$s';

@@ -1,7 +1,7 @@
 <?php
 // Version: 2.1 RC3; PersonalMessage
 
-global $context;
+
 
 // Things for the popup
 $txt['pm_unread'] = 'Непрочитанные';

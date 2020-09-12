@@ -1,7 +1,7 @@
 <?php
 // Version: 2.1 RC3; Errors
 
-global $scripturl, $modSettings;
+
 
 $txt['no_access'] = 'Вы не можете зайти в этот раздел';
 $txt['not_found'] = 'Этот раздел недоступен в данный момент.';

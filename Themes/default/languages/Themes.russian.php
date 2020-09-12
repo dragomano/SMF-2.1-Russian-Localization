@@ -152,7 +152,7 @@ $txt['themeadmin_selectable'] = 'Темы оформления, разрешен
 $txt['themeadmin_themelist_link'] = 'Отобразить список тем оформления';
 
 // Open Graph
-$txt['og_image'] = 'Изображение Open Graph';
-$txt['og_image_desc'] = 'Рекомендуемый размер: 175x175px. Ссылка на оптимизированный для соцсетей логотип форума.<br><span class="smalltext"><a href="https://ruogp.me/" target="_blank" rel="noopener" class="bbc_link">Что такое Open Graph</a>?</span>';
+$txt['og_image'] = 'Изображение <a href="https://ruogp.me/" target="_blank" rel="noopener" class="bbc_link">Open Graph</a>';
+$txt['og_image_desc'] = 'Ссылка на оптимизированный для соцсетей логотип форума (рекомендуется 175x175px).';
 
 ?>

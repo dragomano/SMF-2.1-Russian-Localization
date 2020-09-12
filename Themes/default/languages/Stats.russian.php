@@ -1,7 +1,7 @@
 <?php
 // Version: 2.1 RC3; Stats
 
-global $context;
+
 
 $txt['most_online'] = 'Максимум онлайн';
 

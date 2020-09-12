@@ -1,7 +1,7 @@
 <?php
 // Version: 2.1 RC3; Post
 
-global $context;
+
 
 $txt['post_reply'] = 'Ответ';
 $txt['message_icon'] = 'Иконка';

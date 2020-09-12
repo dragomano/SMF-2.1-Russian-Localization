@@ -1,7 +1,7 @@
 <?php
 // Version: 2.1 RC3; ManageMembers
 
-global $context;
+
 
 $txt['groups'] = 'Группы';
 $txt['viewing_groups'] = 'Просмотр групп пользователей';
