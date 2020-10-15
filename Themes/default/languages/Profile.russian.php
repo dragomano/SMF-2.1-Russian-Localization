@@ -7,7 +7,7 @@
 $txt['popup_forumprofile'] = 'Сводка';
 $txt['popup_showposts'] = 'Мои сообщения';
 $txt['popup_showdrafts'] = 'Мои черновики';
-$txt['popup_ignore'] = 'Друзья/враги';
+$txt['popup_ignore'] = 'Круг общения';
 $txt['popup_groupmembership'] = 'Мои группы';
 $txt['popup_subscriptions'] = 'Подписки';
 
@@ -222,7 +222,7 @@ $txt['showUnwatched'] = 'Непросмотренные темы';
 $txt['showAttachments'] = 'Вложения';
 $txt['viewWarning_help'] = 'В этом разделе можно увидеть все предупреждения, вынесенные этому пользователю.';
 $txt['statPanel'] = 'Статистика';
-$txt['editBuddyIgnoreLists'] = 'Белый и чёрный списки';
+$txt['editBuddyIgnoreLists'] = 'Круг общения';
 $txt['could_not_add_person'] = 'Вы не можете добавить этого пользователя в свой список';
 $txt['could_not_remove_person'] = 'Вы не можете удалить этого пользователя из своего списка';
 $txt['editBuddies'] = 'Изменить белый список';
@@ -325,7 +325,7 @@ $txt['show_online'] = 'Отображать ваш онлайн-статус?';
 
 $txt['return_to_post'] = 'Возвращаться в тему после ответа.';
 $txt['posts_apply_ignore_list'] = 'Скрывать сообщения пользователей из вашего чёрного списка.';
-$txt['recent_posts_at_top'] = 'Показывать новые сообщения в разделах наверху.';
+$txt['recent_posts_at_top'] = 'Показывать новые сообщения в темах наверху.';
 $txt['recent_pms_at_top'] = 'Показывать новые личные сообщения сверху.';
 $txt['wysiwyg_default'] = 'Загружать редактор в режиме <abbr title="Что видишь, то и получишь">WYSIWYG</abbr> по умолчанию.';
 
