@@ -1,5 +1,5 @@
 <?php
-// Version: 2.1 RC2; Packages
+// Version: 2.1 RC3; Packages
 
 $txt['package_proceed'] = 'Продолжить';
 $txt['php_script'] = 'Файлы пакета были извлечены, но для дальнейшей работы необходимо запустить PHP скрипт, который поставляется вместе с пакетом';
@@ -22,16 +22,19 @@ $txt['download'] = 'Скачать';
 $txt['download_success'] = 'Пакет успешно загружен';
 $txt['package_downloaded_successfully'] = 'Пакет был успешно загружен';
 $txt['package_manager'] = 'Менеджер пакетов';
-$txt['install_mod'] = 'Установка мода';
+$txt['install_modification'] = 'Установка мода';
+$txt['install_language'] = 'Добавить язык';
+$txt['install_avatar'] = 'Добавить аватары';
+$txt['install_unknown'] = 'Установить пакет';
 $txt['uninstall_mod'] = 'Удаление мода';
-$txt['sql_file'] = 'Файлы пакета были извлечены. Этот пакет содержит файл, производящий необходимые изменения в базе данных. Для завершения установки, необходимо вручную запустить этот файл в браузере.';
+$txt['sql_file'] = 'Файлы пакета были извлечены. Этот пакет содержит файл, производящий необходимые изменения в базе данных. Для завершения установки необходимо вручную запустить этот файл в браузере.';
 $txt['sql_queries'] = 'Запросы SQL';
 $txt['no_mods_installed'] = 'Нет установленных пакетов модификаций.';
 $txt['browse_installed'] = 'Обзор установленных пакетов';
 $txt['uninstall'] = 'Удаление мода';
 $txt['package_delete_list_warning'] = 'Хотите очистить список установленных модификаций?';
 $txt['php_safe_mode'] = 'PHP на вашем сервере запущен в безопасном режиме (SAFE MODE). Эта функция несовместима с SAFE MODE.';
-$txt['lets_try_anyway'] = 'Все равно попробовать.';
+$txt['lets_try_anyway'] = 'Всё равно попробовать.';
 
 $txt['could_not_package_backup'] = 'Невозможно сделать резервную копию перед внесением изменений, поэтому никакие изменения не были произведены (или измените права доступа для подкаталога Packages/backup или отключите создание резервных копий - что не рекомендуется).';
 
@@ -45,8 +48,6 @@ $txt['modification_package'] = 'Пакеты модификаций';
 $txt['avatar_package'] = 'Пакеты аватаров';
 $txt['language_package'] = 'Языковые пакеты';
 $txt['unknown_package'] = 'Неизвестные пакеты';
-$txt['use_avatars'] = 'Добавить аватары';
-$txt['add_languages'] = 'Добавить язык';
 $txt['list_files'] = 'Список файлов';
 $txt['remove'] = 'Удалить';
 $txt['package_type'] = 'Тип пакета';
@@ -67,14 +68,14 @@ $txt['file_location'] = 'Расположение файла';
 $txt['package_installed_key'] = 'Установленные пакеты:';
 $txt['package_installed_warning1'] = 'Этот пакет уже установлен на вашем форуме!';
 $txt['package_installed_warning2'] = 'Вы должны удалить старую версию пакета или попросить автора выпустить обновление для текущей версии.';
-$txt['package_installed_warning3'] = 'Не забывайте делать резервное копирование файлов и базы данных перед установкой/удалением любых модификаций.';
+$txt['package_installed_warning3'] = 'Не забывайте делать резервное копирование файлов и базы данных перед установкой/удалением любых модификаций (особенно бета-версий).';
 $txt['package_installed_done'] = 'Пакет был успешно установлен. Теперь можно использовать предоставляемые им функции или изменения.';
 $txt['package_installed_redirecting'] = 'Перенаправление...';
 $txt['package_installed_redirect_go_now'] = 'Перейти';
 $txt['package_installed_redirect_cancel'] = 'Вернуться в менеджер пакетов';
 
 $txt['packages_adding_title'] = 'Получение пакетов';
-$txt['packages_adding'] = 'Ищите новые моды для форума в официальном каталоге модификаций SMF - <strong><a href="https://custom.simplemachines.org/mods/" target="_blank" rel="noopener">https://custom.simplemachines.org/mods/</a></strong>.<br><br>Каждая из модификаций имеет отдельную тему для обсуждения.';
+$txt['packages_adding'] = 'Ищите новые моды для форума в официальном каталоге модификаций SMF - <strong><a class="bbc_link" href="https://custom.simplemachines.org/mods/" target="_blank" rel="noopener">https://custom.simplemachines.org/mods/</a></strong>.<br>Каждая из модификаций имеет отдельную тему для обсуждения.<br>Обзоры и переводы популярных модификаций можно найти в <a class="bbc_link" href="https://dragomano.ru" target="_blank" rel="noopener">Логове медведя</a>.';
 
 $txt['package_upgrade'] = 'Обновить';
 $txt['package_uninstall_readme'] = 'Описание при удалении';
@@ -124,11 +125,11 @@ $txt['package_theme_failure_warning'] = 'Как минимум одна ошиб
 
 $txt['package_bytes'] = 'байт';
 
-$txt['package_action_missing'] = '<strong class="error">Файл не найден</strong>';
-$txt['package_action_error'] = '<strong class="error">Ошибка файла установки</strong>';
-$txt['package_action_failure'] = '<strong class="error">Неудачно</strong>';
-$txt['package_action_success'] = '<strong>Успешно</strong>';
-$txt['package_action_skipping'] = '<strong>Пропуск файла</strong>';
+$txt['package_action_missing'] = 'Файл не найден';
+$txt['package_action_error'] = 'Ошибка файла установки';
+$txt['package_action_failure'] = 'Неудачно';
+$txt['package_action_success'] = 'Успешно';
+$txt['package_action_skipping'] = 'Пропуск файла';
 
 $txt['package_uninstall_actions'] = 'Удаление пакета';
 $txt['package_uninstall_done'] = 'Пакет был успешно удален.';
@@ -141,10 +142,10 @@ $txt['package_install_options_ftp_server'] = 'Сервер FTP';
 $txt['package_install_options_ftp_port'] = 'Порт';
 $txt['package_install_options_ftp_user'] = 'Имя пользователя';
 $txt['package_install_options_make_backups'] = 'Создавать резервные копии изменяемых файлов с тильдой (~) на конце их имён.';
-$txt['package_install_options_make_full_backups'] = 'Создавать полную копию файлов форума всякий раз, когда устанавливается или удаляется какая-либо модификация.';
+$txt['package_install_options_make_full_backups'] = 'Создавать полную копию файлов форума при установке или удалении модификаций.';
 
 $txt['package_ftp_necessary'] = 'Необходимая информация FTP';
-$txt['package_ftp_why'] = 'Некоторые файлы, которые менеджер пакетов должен изменить, не имеют прав на запись. Менеджер пакетов может изменить это автоматически. Введенные вами данные для FTP доступа, могут быть временно кешированы для корректной работы менеджера пакетов. Также, вы можете самостоятельно изменить права доступа, используя FTP-клиент. Для просмотра списка нужных файлов нажмите <a href="#" onclick="%1$s">здесь</a>.';
+$txt['package_ftp_why'] = 'Некоторые файлы, которые менеджер пакетов должен изменить, не имеют прав на запись. Менеджер пакетов может изменить это автоматически. Введенные вами данные для доступа по FTP могут быть временно кэшированы для корректной работы менеджера пакетов. Также вы можете самостоятельно изменить права доступа, используя FTP-клиент. Для просмотра списка нужных файлов нажмите <a class="bbc_link" href="#" onclick="%1$s">здесь</a>.';
 $txt['package_ftp_why_file_list'] = 'Следующим файлам нужны права на запись для продолжения установки:';
 $txt['package_ftp_why_download'] = 'Для загрузки пакетов папка Packages и все файлы в ней должны иметь права на запись. Менеджер пакетов может использовать настройки FTP-сервера для установки этих прав.';
 $txt['package_ftp_server'] = 'Сервер FTP';
@@ -173,7 +174,7 @@ $txt['package_modification_missing'] = 'Файл не найден.';
 $txt['package_no_zlib'] = 'zlib';
 $txt['package_no_phar'] = 'phar';
 $txt['package_no_package_manager'] = 'менеджер пакетов';
-$txt['package_no_zlib'] = 'Конфигурация PHP вашего хостинга не поддерживает библиотеку <strong>%1$s</strong>. Без поддержки этой библиотеки %2$s работать не может. Обратитесь к своему хостеру для решения этой проблемы.';
+$txt['package_no_lib'] = 'Конфигурация PHP вашего хостинга не поддерживает библиотеку <strong>%1$s</strong>. Без поддержки этой библиотеки %2$s работать не может. Обратитесь к своему хостеру для решения этой проблемы.';
 
 $txt['package_cleanperms_title'] = 'Изменение прав';
 $txt['package_cleanperms_desc'] = 'Здесь можно изменить права файлов, используемых форумом.';
@@ -260,7 +261,7 @@ $txt['package_restore_permissions_post_change'] = '%2$s (%3$s &mdash; было %
 $txt['package_restore_permissions_action_skipped'] = '<em>Пропущено</em>';
 $txt['package_restore_permissions_action_success'] = '<span class="success">Выполнено</span>';
 $txt['package_restore_permissions_action_failure'] = '<span class="error">С ошибками</span>';
-$txt['package_restore_permissions_action_done'] = 'SMF попытался восстановить первоначальные права доступа к выбранным файлам, ниже можно увидеть результат этих действий. Если попытка не удалась или требуется больше информации, посмотрите их в секции <a href="%1$s">Права доступа к файлам</a>.';
+$txt['package_restore_permissions_action_done'] = 'SMF попытался восстановить первоначальные права доступа к выбранным файлам, ниже можно увидеть результат этих действий. Если попытка не удалась или требуется больше информации, посмотрите их в секции <a class="bbc_link" href="%1$s">Права доступа к файлам</a>.';
 
 $txt['package_file_perms_warning'] = 'Обратите внимание';
 $txt['package_file_perms_warning_desc'] = '
@@ -280,5 +281,11 @@ $txt['package_license_default'] = 'По умолчанию';
 $txt['package_available_license_language'] = 'Доступные языки лицензии:';
 
 $txt['package_chmod_linux'] = 'Если у вас есть доступ к консоли ssh, выполнение указанной ниже команды автоматически исправит права доступа для этих файлов.';
+
+$txt['package_validaiton_results'] = 'Результаты проверки';
+$txt['package_validation_status_unknown'] = 'Неизвестна или не найдена';
+$txt['package_validation_status_clean'] = 'Найдена';
+$txt['package_validation_status_blacklist'] = 'В чёрном списке';
+$txt['package_validation_blacklist_found'] = 'Эта модификация была найдена в чёрном списке и может быть небезопасной.';
 
 ?>

@@ -1,5 +1,5 @@
 <?php
-// Version: 2.1 RC2; Editor
+// Version: 2.1 RC3; Editor
 
 global $editortxt;
 
@@ -38,7 +38,7 @@ $editortxt['insert_quote'] = 'Вставить цитату';
 $editortxt['width'] = 'Ширина (опционально):';
 $editortxt['height'] = 'Высота (опционально):';
 $editortxt['insert_image'] = 'Вставить изображение';
-$editortxt['email'] = 'E-mail: ';
+$editortxt['email'] = 'Имейл: ';
 $editortxt['insert_email'] = 'Вставить адрес электронной почты';
 $editortxt['url'] = 'Ссылка (URL): ';
 $editortxt['insert_link'] = 'Вставить ссылку';

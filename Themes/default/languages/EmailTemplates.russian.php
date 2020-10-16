@@ -1,5 +1,5 @@
 <?php
-// Version: 2.1 RC2; EmailTemplates
+// Version: 2.1 RC3; EmailTemplates
 
 // Since all of these strings are being used in emails, numeric entities should be used.
 
@@ -15,10 +15,10 @@ global $txtBirthdayEmails;
 	@additional_params: resend_activate_message
 		REALNAME: The display name for the member receiving the email.
 		USERNAME:  The user name for the member receiving the email.
-		ACTIVATIONLINK:  The url link to activate the member's account.
+		ACTIVATIONLINK:  The URL link to activate the member's account.
 		ACTIVATIONCODE:  The code needed to activate the member's account.
-		ACTIVATIONLINKWITHOUTCODE: The url to the page where the activation code can be entered.
-		FORGOTPASSWORDLINK: The url to the "forgot password" page.
+		ACTIVATIONLINKWITHOUTCODE: The URL to the page where the activation code can be entered.
+		FORGOTPASSWORDLINK: The URL to the "forgot password" page.
 	@description:
 */
 $txt['resend_activate_message_subject'] = 'Добро пожаловать на {FORUMNAME}';
@@ -51,7 +51,7 @@ $txt['resend_pending_message_body'] = 'Привет, {REALNAME}.
 Ваш логин:
 {USERNAME}
 
-Перед тем, как вы сможете войти на форум, ваш запрос должен быть одобрен. Вы получите другое письмо с подтверждением с этого адреса.
+Перед тем как вы сможете войти на форум, ваш запрос должен быть одобрен.
 
 {REGARDS}';
 
@@ -119,8 +119,8 @@ $txt['admin_approve_accept_body'] = 'Добро пожаловать, {NAME}!
 /**
 	@additional_params: admin_approve_activation
 		USERNAME: The user name for the member receiving the email.
-		ACTIVATIONLINK:  The url link to activate the member's account.
-		ACTIVATIONLINKWITHOUTCODE: The url to the page where the activation code can be entered.
+		ACTIVATIONLINK:  The URL link to activate the member's account.
+		ACTIVATIONLINKWITHOUTCODE: The URL to the page where the activation code can be entered.
 		ACTIVATIONCODE: The activation code.
 	@description:
 */
@@ -161,8 +161,8 @@ $txt['admin_approve_delete_body'] = '{USERNAME},
 /**
 	@additional_params: admin_approve_remind
 		USERNAME: The user name for the member receiving the email.
-		ACTIVATIONLINK:  The url link to activate the member's account.
-		ACTIVATIONLINKWITHOUTCODE: The url to the page where the activation code can be entered.
+		ACTIVATIONLINK:  The URL link to activate the member's account.
+		ACTIVATIONLINKWITHOUTCODE: The URL to the page where the activation code can be entered.
 		ACTIVATIONCODE: The activation code.
 	@description:
 */
@@ -180,8 +180,8 @@ $txt['admin_approve_remind_body'] = '{USERNAME},
 /**
 	@additional_params:
 		USERNAME: The user name for the member receiving the email.
-		ACTIVATIONLINK:  The url link to activate the member's account.
-		ACTIVATIONLINKWITHOUTCODE: The url to the page where the activation code can be entered.
+		ACTIVATIONLINK:  The URL link to activate the member's account.
+		ACTIVATIONLINKWITHOUTCODE: The URL to the page where the activation code can be entered.
 		ACTIVATIONCODE: The activation code.
 	@description:
 */
@@ -214,15 +214,19 @@ $txt['admin_register_immediate_body'] = 'Спасибо за регистрац�
 		TOPICSUBJECT: The subject of the topic being announced.
 		MESSAGE: The message body of the first post of the announced topic.
 		TOPICLINK: A link to the topic being announced.
+		UNSUBSCRIBELINK: Link to unsubscribe from announcements.
 	@description:
 */
 $txt['new_announcement_subject'] = 'Новое объявление: {TOPICSUBJECT}';
 $txt['new_announcement_body'] = '{MESSAGE}
 
-Чтобы отписаться от таких уведомлений, авторизуйтесь на форуме и снимите пометку «Получать новости, объявления и важные уведомления форума по электронной почте» в своем профиле.
+Чтобы отписаться от таких уведомлений, воспользуйтесь ссылкой:
+{UNSUBSCRIBELINK}
 
 Посмотреть полный анонс:
 {TOPICLINK}
+
+Для большего контроля над получаемыми уведомлениями авторизуйтесь на форуме и перейдите в раздел <em>Настройки уведомлений</em> в своем профиле.
 
 {REGARDS}';
 
@@ -240,12 +244,12 @@ $txt['notify_boards_once_body_body'] = 'Появилась новая тема �
 Посмотреть тему:
 {TOPICLINK}
 
-Тем может быть больше, но вы не будете получать других уведомлений, пока не посетите раздел.
+Тем может быть больше, но вы не будете получать других уведомлений из этого раздела, пока не посетите его и не прочитаете некоторые из этих тем.
 
 Текст темы:
 {MESSAGE}
 
-Отписаться от этого раздела:
+Отписаться от уведомлений о новых темах в этом разделе:
 {UNSUBSCRIBELINK}
 
 {REGARDS}';
@@ -263,9 +267,9 @@ $txt['notify_boards_once_body'] = 'Появилась новая тема «{TOP
 Посмотреть тему:
 {TOPICLINK}
 
-Тем может быть больше, но вы не будете получать других уведомлений, пока не посетите раздел.
+Тем может быть больше, но вы не будете получать других уведомлений из этого раздела, пока не посетите его и не прочитаете некоторые из этих тем.
 
-Отписаться от этого раздела:
+Отписаться от уведомлений о новых темах в этом разделе:
 {UNSUBSCRIBELINK}
 
 {REGARDS}';
@@ -287,7 +291,7 @@ $txt['notify_boards_body_body'] = 'Появилась новая тема «{TOP
 Текст темы:
 {MESSAGE}
 
-Отписаться от этого раздела:
+Отписаться от уведомлений о новых темах в этом разделе:
 {UNSUBSCRIBELINK}
 
 {REGARDS}';
@@ -305,7 +309,7 @@ $txt['notify_boards_body'] = 'Появилась новая тема «{TOPICSUB
 Посмотреть тему:
 {TOPICLINK}
 
-Отписаться от этого раздела:
+Отписаться от уведомлений о новых темах в этом разделе:
 {UNSUBSCRIBELINK}
 
 {REGARDS}';
@@ -377,7 +381,7 @@ $txt['alert_unapproved_topic_body'] = 'Требует одобрения нов�
 */
 $txt['request_membership_subject'] = 'Новый запрос на вступление в группу';
 $txt['request_membership_body'] = '{RECPNAME},
-{APPYNAME} подал запрос на вступление в группу «{GROUPNAME}».
+{APPLYNAME} подал запрос на вступление в группу «{GROUPNAME}».
 
 Пользователь указал следующую причину:
 {REASON}
@@ -409,9 +413,9 @@ $txt['paid_subscription_reminder_body'] = '{REALNAME},
 
 /**
 	@additional_params: activate_reactivate
-		ACTIVATIONLINK:  The url link to reactivate the member's account.
+		ACTIVATIONLINK:  The URL link to reactivate the member's account.
 		ACTIVATIONCODE:  The code needed to reactivate the member's account.
-		ACTIVATIONLINKWITHOUTCODE: The url to the page where the activation code can be entered.
+		ACTIVATIONLINKWITHOUTCODE: The URL to the page where the activation code can be entered.
 	@description:
 */
 $txt['activate_reactivate_subject'] = 'С возвращением на {FORUMNAME}';
@@ -460,8 +464,8 @@ $txt['send_email_body'] = '{EMAILBODY}';
 		TOPICSUBJECT: The subject of the reported post.
 		POSTERNAME: The reported post's author's name.
 		REPORTERNAME: The name of the person reporting the post.
-		TOPICLINK: The url of the post that is being reported.
-		REPORTLINK: The url of the moderation center report.
+		TOPICLINK: The URL of the post that is being reported.
+		REPORTLINK: The URL of the moderation center report.
 		COMMENT: The comment left by the reporter, hopefully to explain why they are reporting the post.
 	@description: When a user reports a post this email is sent out to moderators and admins of that board.
 */
@@ -481,8 +485,8 @@ $txt['report_to_moderator_body'] = 'В разделе, который вы мо�
 		TOPICSUBJECT: The subject of the reported post.
 		POSTERNAME: The reported post's author's name.
 		COMMENTERNAME: The name of the person who replied to the report.
-		TOPICLINK: The url of the post that is being reported.
-		REPORTLINK: The url of the moderation center report.
+		TOPICLINK: The URL of the post that is being reported.
+		REPORTLINK: The URL of the moderation center report.
 	@description: When a moderator replies to a moderation report, this can be sent to the other moderators who previously replied.
 */
 $txt['reply_to_moderator_subject'] = 'Перейти к сообщению {TOPICSUBJECT}, на которое пришла жалоба от {POSTERNAME}';
@@ -558,10 +562,10 @@ $txt['change_password_body'] = 'Наш милый друг, товарищ {USER
 		REALNAME: The display name for the member receiving the email.
 		USERNAME: The user name for the member receiving the email.
 		PASSWORD: The password for the member.
-		ACTIVATIONLINK:  The url link to reactivate the member's account.
-		ACTIVATIONLINKWITHOUTCODE: The url to the page where the activation code can be entered.
+		ACTIVATIONLINK:  The URL link to reactivate the member's account.
+		ACTIVATIONLINKWITHOUTCODE: The URL to the page where the activation code can be entered.
 		ACTIVATIONCODE:  The code needed to reactivate the member's account.
-		FORGOTPASSWORDLINK: The url to the "forgot password" page.
+		FORGOTPASSWORDLINK: The URL to the "forgot password" page.
 	@description:
 */
 $txt['register_activate_subject'] = 'Добро пожаловать на {FORUMNAME}';
@@ -585,8 +589,8 @@ $txt['register_activate_body'] = 'Спасибо за регистрацию н�
 		REALNAME: The display name for the member receiving the email.
 		USERNAME: The user name for the member receiving the email.
 		PASSWORD: The password for the member.
-		COPPALINK:  The url link to the coppa form.
-		FORGOTPASSWORDLINK: The url to the "forgot password" page.
+		COPPALINK:  The URL link to the coppa form.
+		FORGOTPASSWORDLINK: The URL to the "forgot password" page.
 	@description:
 */
 $txt['register_coppa_subject'] = 'Добро пожаловать на {FORUMNAME}';
@@ -608,7 +612,7 @@ $txt['register_coppa_body'] = 'Спасибо за регистрацию на {
 		REALNAME: The display name for the member receiving the email.
 		USERNAME: The user name for the member receiving the email.
 		PASSWORD: The password for the member.
-		FORGOTPASSWORDLINK: The url to the "forgot password" page.
+		FORGOTPASSWORDLINK: The URL to the "forgot password" page.
 	@description:
 */
 $txt['register_immediate_subject'] = 'Добро пожаловать на {FORUMNAME}';
@@ -627,19 +631,19 @@ $txt['register_immediate_body'] = 'Спасибо за регистрацию н
 		REALNAME: The display name for the member receiving the email.
 		USERNAME: The user name for the member receiving the email.
 		PASSWORD: The password for the member.
-		FORGOTPASSWORDLINK: The url to the "forgot password" page.
+		FORGOTPASSWORDLINK: The URL to the "forgot password" page.
 	@description:
 */
 $txt['register_pending_subject'] = 'Добро пожаловать на {FORUMNAME}';
 $txt['register_pending_body'] = 'Ваш запрос о регистрации на форуме {FORUMNAME} принят, {REALNAME}.
 
-Ваш логин:
+Логин, указанный при регистрации:
 {USERNAME}
 
 Если забыли свой пароль, можете восстановить его:
 {FORGOTPASSWORDLINK}.
 
-Подождите, пока ваш запрос одобрят. Когда это произойдет, придет другое письмо с данного адреса, и вы сможете войти на форум.
+Прежде чем вы сможете авторизоваться и начать пользоваться форумом, ваш запрос должны просмотреть и одобрить.
 
 {REGARDS}';
 
@@ -915,7 +919,7 @@ $txt['paid_subscription_new_body'] = '{REALNAME},
 
 	Подписка: {NAME}
 	Пользователь: {SUBNAME} ({SUBUSER})
-	E-mail: {SUBEMAIL}
+	Имейл: {SUBEMAIL}
 	Цена: {PRICE}
 	Дата: {DATE}
 
@@ -948,7 +952,7 @@ $txt['paid_subscription_error_body'] = 'Ув. {REALNAME},
 	@description: A notification email sent to the receivers of a personal message
 */
 $txt['new_pm_subject'] = 'Новое личное сообщение: {SUBJECT}';
-$txt['new_pm_body'] = 'Вы получили личное сообщение от {SENDER} на {FORUMNAME}
+$txt['new_pm_body'] = 'Вы получили личное сообщение от {SENDER} на {FORUMNAME}.
 
 ВНИМАНИЕ: Помните, что это только уведомление. Не отвечайте на это письмо.
 
@@ -969,7 +973,7 @@ $txt['new_pm_body'] = 'Вы получили личное сообщение о�
 	@description: A notification email sent to the receivers of a personal message
 */
 $txt['new_pm_body_subject'] = 'Новое личное сообщение: {SUBJECT}';
-$txt['new_pm_body_body'] = 'Вы получили личное сообщение от {SENDER} на {FORUMNAME}
+$txt['new_pm_body_body'] = 'Вы получили личное сообщение от {SENDER} на {FORUMNAME}.
 
 ВНИМАНИЕ: Помните, что это только уведомление. Не отвечайте на это письмо.
 
@@ -991,7 +995,7 @@ $txt['new_pm_body_body'] = 'Вы получили личное сообщени�
 	@description: A notification email sent to the receivers of a personal message
 */
 $txt['new_pm_tolist_subject'] = 'Новое личное сообщение: {SUBJECT}';
-$txt['new_pm_tolist_body'] = 'Вы и {TOLIST} получили личное сообщение от {SENDER} на {FORUMNAME}
+$txt['new_pm_tolist_body'] = 'Вы и {TOLIST} получили личное сообщение от {SENDER} на {FORUMNAME}.
 
 ВНИМАНИЕ: Помните, что это только уведомление. Не отвечайте на это письмо.
 
@@ -1013,7 +1017,7 @@ $txt['new_pm_tolist_body'] = 'Вы и {TOLIST} получили личное с�
 	@description: A notification email sent to the receivers of a personal message
 */
 $txt['new_pm_body_tolist_subject'] = 'Новое личное сообщение: {SUBJECT}';
-$txt['new_pm_body_tolist_body'] = 'Вы и {TOLIST} получили личное сообщение от {SENDER} на {FORUMNAME}
+$txt['new_pm_body_tolist_body'] = 'Вы и {TOLIST} получили личное сообщение от {SENDER} на {FORUMNAME}.
 
 ВНИМАНИЕ: Помните, что это только уведомление. Не отвечайте на это письмо.
 

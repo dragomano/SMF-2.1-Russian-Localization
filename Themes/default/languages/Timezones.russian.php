@@ -1,5 +1,5 @@
 <?php
-// Version: 2.1 RC1; Time zone descriptions
+// Version: 2.1 RC3; Time zone descriptions
 
 /**
  * This file defines custom descriptions for certain time zones to be used in
@@ -47,7 +47,7 @@
  * how it should use the 'America/Adak' location.
  */
 
-global $tztxt;
+global $tztxt, $txt;
 
 // Descriptions for entire time zones to use instead of a list of locations
 $tztxt['UTC'] = 'Всемирное координированное время';
@@ -83,6 +83,28 @@ $tztxt['Asia/Magadan'] = 'Магадан, Сахалин';
 $tztxt['Asia/Kamchatka'] = 'Петропавловск-Камчатский';
 
 // Custom descriptions for individual locations
+$txt['America/Adak'] = 'Алеутские острова';
+$txt['Pacific/Marquesas'] = 'Маркизские острова';
+$txt['Pacific/Gambier'] = 'Острова Гамбье';
+$txt['Pacific/Pitcairn'] = 'Острова Питкэрн';
+$txt['America/St_Johns'] = 'Ньюфаундленд';
+$txt['Pacific/Easter'] = 'Остров Пасхи';
+$txt['Atlantic/Stanley'] = 'Фолклендские острова';
+$txt['America/Miquelon'] = 'Сен-Пьер и Микелон';
+$txt['America/Godthab'] = 'Гренландия';
+$txt['America/Noronha'] = 'Фернанду-ди-Норонья';
 $txt['Asia/Kolkata'] = 'Индия';
+$txt['Asia/Colombo'] = 'ШриЛанка';
+$txt['Asia/Dhaka'] = 'Бангладеш';
+$txt['Antarctica/DumontDUrville'] = 'Станция Дюмон-д\'Юрвиль (Антарктика)';
+$txt['Antarctica/Troll'] = 'Станция Тролль (Антарктика)';
+$txt['Antarctica/Vostok'] = 'Станция Восток (Антарктика)';
+$txt['Australia/Lord_Howe'] = 'Остров Лорд-Хау (Австралия)';
+$txt['Pacific/Guadalcanal'] = 'Соломоновы Острова';
+$txt['Pacific/Norfolk'] = 'Остров Норфолк';
+$txt['Pacific/Noumea'] = 'Новая Каледония (Тихий Океан)';
+$txt['Antarctica/McMurdo'] = 'Станция Мак-Мердо (Антарктика)';
+$txt['Pacific/Kwajalein'] = 'Маршалловы Острова';
+$txt['Pacific/Chatham'] = 'Чатем (Тихий Океан)';
 
 ?>

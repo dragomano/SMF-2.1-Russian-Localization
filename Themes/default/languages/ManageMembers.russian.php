@@ -1,7 +1,7 @@
 <?php
-// Version: 2.1 RC2; ManageMembers
+// Version: 2.1 RC3; ManageMembers
 
-global $context;
+
 
 $txt['groups'] = 'Группы';
 $txt['viewing_groups'] = 'Просмотр групп пользователей';
@@ -96,7 +96,7 @@ $txt['admin_browse_awaiting_approval'] = 'Ожидают одобрения (%1$
 $txt['admin_browse_awaiting_activate'] = 'Ожидают активации (%1$d)';
 
 $txt['admin_browse_username'] = 'Имя пользователя';
-$txt['admin_browse_email'] = 'E-mail';
+$txt['admin_browse_email'] = 'Имейл';
 $txt['admin_browse_ip'] = 'IP-адрес';
 $txt['admin_browse_registered'] = 'Зарегистрирован';
 $txt['admin_browse_id'] = 'ID';
@@ -114,6 +114,7 @@ $txt['admin_browse_w_reject'] = 'Отклонить';
 $txt['admin_browse_w_remind'] = 'Уведомить';
 $txt['admin_browse_w_approve_deletion'] = 'Подтвердить (удаление учётной записи)';
 $txt['admin_browse_w_email'] = 'и отправить электронное сообщение';
+$txt['admin_browse_no_email'] = '(без электронного сообщения)';
 $txt['admin_browse_w_approve_require_activate'] = 'Одобрить и потребовать активацию';
 
 $txt['admin_browse_filter_by'] = 'Фильтровать по';
@@ -134,6 +135,6 @@ $txt['check_for_duplicate'] = 'Проверить на двойников';
 $txt['dont_check_for_duplicate'] = 'Не проверять на двойников';
 $txt['duplicates'] = 'Двойники';
 
-$txt['not_activated'] = 'Не активированы';
+$txt['not_activated'] = 'Не активирован';
 
 ?>

@@ -1,7 +1,7 @@
 <?php
-// Version: 2.1 RC2; Stats
+// Version: 2.1 RC3; Stats
 
-global $context;
+
 
 $txt['most_online'] = 'Максимум онлайн';
 
@@ -39,6 +39,7 @@ $txt['ssi_comment'] = 'комментарий';
 $txt['ssi_comments'] = 'комментариев';
 $txt['ssi_write_comment'] = 'Написать комментарий';
 $txt['ssi_no_guests'] = 'Вы не можете указать раздел, недоступный гостям. Проверьте ID раздела и попробуйте снова.';
-$txt['xml_rss_desc'] = 'Новости от ' . $context['forum_name'];
+// argument(s): forum name
+$txt['xml_rss_desc'] = '%1$s — Новости';
 
 ?>
