@@ -330,10 +330,10 @@ $txt['total_members'] = 'Всего пользователей';
 $txt['total_posts'] = 'Всего сообщений';
 $txt['total_topics'] = 'Всего тем';
 
-$txt['time_logged_in'] = 'Длина сессии (в минутах)';
+$txt['time_logged_in'] = 'Хранить данные входа';
 
 $txt['preview'] = 'Предварительный просмотр';
-$txt['always_logged_in'] = 'Запомнить';
+$txt['always_logged_in'] = 'Постоянно';
 
 $txt['logged'] = 'Записан';
 // Use numeric entities in the below string.

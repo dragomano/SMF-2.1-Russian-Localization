@@ -465,9 +465,9 @@ $txt['profile_warning_notify_body'] = 'Содержание уведомлени
 $txt['profile_warning_notify_template_subject'] = 'Вы получили предупреждение';
 // Use numeric entities in below string.
 // argument(s): one of the reasons defined in $txt['profile_warning_notify_for_*']
-$txt['profile_warning_notify_template_outline'] = "{MEMBER},\n\nВы получили предупреждение за %1\$s. Пожалуйста, соблюдайте правила форума, иначе мы предпримем другие меры.\n\n{REGARDS}";
+$txt['profile_warning_notify_template_outline'] = "{MEMBER},\n\nВы получили предупреждение за %1\$s. Пожалуйста, соблюдайте правила форума, иначе мы предпримем другие меры.\n\nЕсли вы хотите обсудить это, свяжитесь с администратором.\n\n{REGARDS}";
 // argument(s): one of the reasons defined in $txt['profile_warning_notify_for_*']
-$txt['profile_warning_notify_template_outline_post'] = "{MEMBER},\n\nВы получили предупреждение за %1\$s в сообщении:\n{MESSAGE}.\n\nПожалуйста, соблюдайте правила форума, иначе мы предпримем другие меры.\n\n{REGARDS}";
+$txt['profile_warning_notify_template_outline_post'] = "{MEMBER},\n\nВы получили предупреждение за %1\$s в сообщении:\n{MESSAGE}.\n\nПожалуйста, соблюдайте правила форума, иначе мы предпримем другие меры.\n\nЕсли вы хотите обсудить это, свяжитесь с администратором.\n\n{REGARDS}";
 $txt['profile_warning_notify_for_spamming'] = 'спам';
 $txt['profile_warning_notify_title_spamming'] = 'СПАМ';
 $txt['profile_warning_notify_for_offence'] = 'публикацию оскорбительного материала';
