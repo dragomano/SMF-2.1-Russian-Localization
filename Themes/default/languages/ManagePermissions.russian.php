@@ -226,7 +226,7 @@ $txt['permissionhelp_announce_topic'] = 'Это право позволяет о
 
 $txt['permissiongroup_post'] = 'Сообщения';
 $txt['permissionname_delete'] = 'Удаление сообщений';
-$txt['permissionhelp_delete'] = 'Это право позволяет пользователям удалять сообщение в темах, кроме самого первого сообщения.';
+$txt['permissionhelp_delete'] = 'Это право позволяет пользователям удалять сообщения в темах, кроме самого первого.';
 $txt['permissionname_delete_own'] = 'Собственное сообщение';
 $txt['permissionname_delete_any'] = 'Любое сообщение';
 $txt['permissionname_modify'] = 'Редактирование сообщений';

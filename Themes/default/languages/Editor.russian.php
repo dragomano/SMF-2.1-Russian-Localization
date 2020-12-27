@@ -42,6 +42,7 @@ $editortxt['email'] = 'Имейл: ';
 $editortxt['insert_email'] = 'Вставить адрес электронной почты';
 $editortxt['url'] = 'Ссылка (URL): ';
 $editortxt['insert_link'] = 'Вставить ссылку';
+$editortxt['description'] = 'Описание (необязательно)';
 $editortxt['unlink'] = 'Убрать сылку';
 $editortxt['more'] = 'Ещё';
 $editortxt['close'] = 'Закрыть';
@@ -59,5 +60,6 @@ $editortxt['flash'] = 'Вставить Flash';
 $editortxt['float_left'] = 'Плавающий блок слева';
 $editortxt['float_right'] = 'Плавающий блок справа';
 $editortxt['maximize'] = 'Развернуть на весь экран';
+$editortxt['dateformat'] = 'day.month.year';
 
 ?>
