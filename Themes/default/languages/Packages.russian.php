@@ -90,8 +90,8 @@ $txt['corrupt_compatible'] = 'Устанавливаемый пакет повр
 $txt['package_create'] = 'Создание';
 $txt['package_move'] = 'Перемещение';
 $txt['package_delete'] = 'Удаление';
-$txt['package_delete2'] = 'Удалить пакет';
-$txt['package_keep'] = 'Сохранить пакет';
+$txt['package_delete2'] = 'Удалить файл модификации';
+$txt['package_keep'] = 'Сохранить файл модификации';
 $txt['package_extract'] = 'Извлечение';
 $txt['package_file'] = 'файла';
 $txt['package_tree'] = 'папки';
@@ -186,7 +186,7 @@ $txt['package_cleanperms_free'] = 'Все файлы имеют права на 
 $txt['package_cleanperms_restrictive'] = 'Минимум файлов имеют права на запись.';
 $txt['package_cleanperms_go'] = 'Изменить';
 
-$txt['package_download_by_url'] = 'Загрузить пакет модификаций по адресу';
+$txt['package_download_by_url'] = 'Загрузить пакет модификации по адресу';
 $txt['package_download_filename'] = 'Название файла';
 $txt['package_download_filename_info'] = 'Используйте, если адрес не заканчивается именем файла. Например: index.php?mod=5';
 

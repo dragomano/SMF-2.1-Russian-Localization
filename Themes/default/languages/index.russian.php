@@ -708,7 +708,7 @@ $txt['message_icon'] = 'Иконка сообщения';
 
 $txt['smileys_current'] = 'Текущий набор смайликов';
 $txt['smileys_none'] = 'Нет смайликов';
-$txt['smileys_forum_board_default'] = 'Форум/Раздел по умолчанию';
+$txt['smileys_forum_board_default'] = 'По умолчанию (из настроек форума)';
 
 $txt['search_results'] = 'Результаты поиска';
 $txt['search_no_results'] = 'Извините, ничего не найдено';
