@@ -141,12 +141,9 @@ $txt['memcachedimplementation_cache'] = 'Memcached';
 $txt['zend_cache'] = 'Zend Platform/Performance Suite';
 $txt['cache_filebased_settings'] = 'Настройки файлового кэширования SMF';
 $txt['cache_sqlite_settings'] = 'Настройки кэширования в базу SQLite3';
-$txt['cache_memcachedimplementation_settings'] = 'Настройки Memcached';
-$txt['cache_memcachedimplementation_servers'] = 'Сервера Memcached';
-$txt['cache_memcachedimplementation_servers_subtext'] = 'Например: 127.0.0.1:11211,127.0.0.2';
-$txt['cache_memcacheimplementation_settings'] = 'Настройки Memcache';
-$txt['cache_memcacheimplementation_servers'] = 'Сервера Memcache';
-$txt['cache_memcacheimplementation_servers_subtext'] = 'Example: 127.0.0.1:11211,127.0.0.2';
+$txt['cache_memcached_settings'] = 'Настройки Memcache/Memcached';
+$txt['cache_memcached_servers'] = 'Сервера Memcache/Memcached';
+$txt['cache_memcached_servers_subtext'] = 'Например: 127.0.0.1:11211,127.0.0.2';
 
 $txt['loadavg_warning'] = 'Обратите внимание: приведенные ниже настройки необходимо изменять с осторожностью. Установка для любого из этих параметров слишком низкого значения может привести к полной <strong>неработоспособности</strong> форума! Эти настройки только для виртуальных и физических серверов, если ваш форум на виртуальном хостинге - не меняйте их! Текущая средняя нагрузка: <strong>%01.2f</strong>';
 $txt['loadavg_enable'] = 'Включить балансировку нагрузки по среднему значению (load averages)';

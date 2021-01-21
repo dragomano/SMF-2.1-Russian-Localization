@@ -303,6 +303,7 @@ $txt['upgrade_json_completed'] = 'Конвертация в JSON заверше�
 $txt['upgrade_executing'] = 'Выполнение:';
 $txt['upgrade_of'] = '';
 $txt['upgrade_admin_login'] = 'Логин администратора:';
+$txt['upgrade_admin_disabled'] = '(ОТКЛЮЧЕНО)';
 /* Same sentence, 3 different strings */
 $txt['upgrade_done'] = 'Обновление завершено. Теперь вы готовы к использованию';
 $txt['upgrade_done2'] = 'SMF';

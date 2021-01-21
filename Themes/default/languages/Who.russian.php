@@ -27,6 +27,7 @@ $txt['whospider_reminder'] = 'Просматривает страницу нап
 
 $txt['whoall_activate'] = 'Активирует свою учётную запись.';
 $txt['whoall_buddy'] = 'Изменяет список своих друзей.';
+$txt['whoall_agreement'] = 'Просматривает <a href="%1$s?action=agreement">условия и правила</a>.';
 $txt['whoall_coppa'] = 'Заполняет сведения о родителях/опекунах.';
 $txt['whoall_credits'] = 'Просматривает информацию о разработчиках.';
 $txt['whoall_emailuser'] = 'Отправляет письмо другому пользователю.';

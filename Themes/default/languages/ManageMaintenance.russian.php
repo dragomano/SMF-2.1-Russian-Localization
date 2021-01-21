@@ -224,9 +224,9 @@ $txt['reattribute_current_member'] = 'Присвоить сообщения по
 $txt['reattribute_increase_posts'] = 'Добавить количество сообщений пользователю';
 $txt['reattribute'] = 'Присвоить';
 // Don't use entities in the below string.
-$txt['reattribute_confirm'] = 'Хотите присвоить все сообщения гостей с %type% «%find%» пользователю «%member_to%»?';
+$txt['reattribute_confirm'] = 'Хотите присвоить все сообщения гостей, имеющих %type% «%find%» пользователю «%member_to%»?';
 $txt['reattribute_confirm_username'] = 'имя пользователя';
-$txt['reattribute_confirm_email'] = 'электронный адрес';
+$txt['reattribute_confirm_email'] = 'имейл';
 $txt['reattribute_cannot_find_member'] = 'Не найден пользователь, которому нужно присвоить сообщения.';
 
 $txt['maintain_recountposts'] = 'Пересчитать сообщения пользователей';
