@@ -158,7 +158,7 @@ $txt['package_ftp_path'] = 'Локальный путь к SMF';
 $txt['package_ftp_test'] = 'Тест';
 $txt['package_ftp_test_connection'] = 'Протестировать соединение';
 $txt['package_ftp_test_success'] = 'Связь с FTP сервером установлена.';
-$txt['package_ftp_test_failed'] = 'Не могу соединится с сервером.';
+$txt['package_ftp_test_failed'] = 'Не удалось соединиться с сервером.';
 
 // For a break, use -n- instead of <br>... and don't use entities.
 $txt['package_delete_bad'] = 'Пакет, который вы пытаетесь удалить, установлен на форуме!-n-Если удалить сам пакет, то в дальнейшем будет невозможно удалить эту модификацию.-n-Уверены?';
