@@ -462,4 +462,62 @@ $txt['json_JSON_ERROR_INF_OR_NAN'] = 'Ошибка декодирования JS
 $txt['json_JSON_ERROR_UNSUPPORTED_TYPE'] = 'Ошибка декодирования JSON: значение типа, который не может быть закодирован';
 $txt['json_unknown'] = 'Неизвестная ошибка';
 
+// The following strings are used with various trigger_error calls. Most include the function that they're called from.
+// Board errors
+$txt['create_board_missing_options'] = 'createBoard(): один или несколько требуемых вариантов не установлены';
+$txt['move_board_no_target'] = 'createBoard(): раздел назначения не задан';
+$txt['modify_board_move_to_incorrect'] = 'modifyBoard(): значение move_to \'%s\' неверно';
+
+// Category errors
+$txt['create_category_no_name'] = 'createCategory(): требуется название категории';
+$txt['cannot_move_to_deleted_category'] = 'deleteCategories(): нельзя переместить разделы в категорию, которая была удалена';
+
+// Package manager error
+$txt['undefined_xml_attribute'] = 'Неопределённый атрибут XML: %s';
+$txt['undefined_xml_element'] = 'Неопределённый элемент XML: %s';
+
+// loadMemberData() error
+$txt['invalid_member_data_set'] = 'loadMemberData(): недействительный набор пользователей: \'%s\'';
+
+// loadMemberContext() error
+$txt['user_not_loaded'] = 'loadMemberContext(): данные пользователя с идентификатором \'%d\' не были загружены функцией loadMemberData()';
+
+// logActions() errors
+$txt['logActions_not_array'] = 'logActions(): данные не являются массивом с действием \'%s\'';
+$txt['logActions_topic_not_numeric']  = 'logActions(): данные темы не являются числом';
+$txt['logActions_message_not_numeric'] = 'logActions(): данные сообщения не являются числом';
+$txt['logActions_member_not_numeric'] = 'logActions(): данные пользователя не являются числом';
+$txt['logActions_board_not_numeric'] = 'logActions(): данные раздела не являются числом';
+$txt['logActions_board_to_not_numeric'] = 'logActions(): данные board_to не являются числом';
+
+// Login error
+$txt['login_no_session_cookie'] = 'Login2(): невозможно войти в систему без сессии или файла куки';
+
+// PM error (see isAccessiblePM function)
+$txt['pm_invalid_validation_type'] = 'Указан неопределенный тип проверки';
+
+$txt['check_submit_once_invalid_action'] = 'checkSubmitOnce(): недопустимое действие \'%s\'';
+
+$txt['get_server_versions_no_database'] = 'getServerVersions(): необходимо подключиться к базе данных, чтобы узнать версию сервера';
+
+// Subs-Db-postgresql.php line 801
+$txt['postgres_id_not_int'] = 'Попытка вернуть поле ID, которое не является целочисленным';
+
+$txt['add_members_to_group_invalid_type'] = 'addMembersToGroup(): неизвестный тип \'%s\'';
+
+$txt['get_members_online_stats_invalid_sort'] = 'Метод сортировки для функции getMembersOnlineStats() не допускается';
+
+$txt['get_board_list_cannot_include_and_exclude'] = 'getBoardList(): одновременная установка excluded_boards и included_boards не допускается.';
+
+$txt['parse_path_filename_required'] = 'parse_path(): не должно быть пустого имени файла';
+$txt['parse_modification_filename_not_full_path'] = 'parseModification(): \'%s\' не является полным путем!';
+$txt['parse_boardmod_filename_not_full_path'] = 'parseBoardMod(): \'%s\' не является полным путем!';
+$txt['package_flush_cache_not_writable'] = 'package_flush_cache(): некоторые файлы всё ещё недоступны для записи';
+
+$txt['create_post_invalid_member_id'] = 'createPost(): неверный идентификатор пользователя \'%d\'';
+
+$txt['invalid_statistic_type'] = 'updateStats(): неверный тип статистики \'%s\'';
+
+$txt['fetch_web_data_bad_url'] = 'fetch_web_data(): неверный URL-адрес';
+
 ?>

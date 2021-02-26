@@ -3,8 +3,8 @@
 
 global $forum_copyright;
 
-// Native name, please use full HTML entities to write your language's name.
-$txt['native_name'] = '&#1056;&#1091;&#1089;&#1089;&#1082;&#1080;&#1081;';
+// Native name, please use write your language's name (in Unicode).
+$txt['native_name'] = 'Русский';
 
 // Locale (strftime, pspell_new) and spelling. (pspell_new, can be left as '' normally.)
 // For more information see:
@@ -29,9 +29,9 @@ $txt['days'] = array('Воскресенье', 'Понедельник', 'Вто
 $txt['days_short'] = array('Вс.', 'Пн.', 'Вт.', 'Ср.', 'Чт.', 'Пт.', 'Сб.');
 // Months must start with 1 => 'January'. (or translated, of course.)
 $txt['months_title'] = 'месяцев';
-$txt['months'] = array(1 => 'января', 'февраля', 'марта', 'апреля', 'мая', 'июня', 'июля', 'августа', 'сентября', 'октября', 'ноября', 'декабря');
-$txt['months_titles'] = array(1 => 'Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь');
-$txt['months_short'] = array(1 => 'Янв.', 'Фев.', 'Март', 'Апр.', 'Май', 'Июнь', 'Июль', 'Авг.', 'Сен.', 'Окт.', 'Нояб.', 'Дек.');
+$txt['months'] = array(1 => 'января', 2 => 'февраля', 3 => 'марта', 4 => 'апреля', 5 => 'мая', 6 => 'июня', 7 => 'июля', 8 => 'августа', 9 => 'сентября', 10 => 'октября', 11 => 'ноября', 12 => 'декабря');
+$txt['months_titles'] = array(1 => 'Январь', 2 => 'Февраль', 3 => 'Март', 4 => 'Апрель', 5 => 'Май', 6 => 'Июнь', 7 => 'Июль', 8 => 'Август', 9 => 'Сентябрь', 10 => 'Октябрь', 11 => 'Ноябрь', 12 => 'Декабрь');
+$txt['months_short'] = array(1 => 'Янв.', 2 => 'Фев.', 3 => 'Март', 4 => 'Апр.', 5 => 'Май', 6 => 'Июнь', 7 => 'Июль', 8 => 'Авг.', 9 => 'Сен.', 10 => 'Окт.', 11 => 'Нояб.', 12 => 'Дек.');
 $txt['prev_month'] = 'Предыдущий месяц';
 $txt['next_month'] = 'Следующий месяц';
 $txt['start'] = 'Начало';
@@ -712,7 +712,7 @@ $txt['merged_subject'] = '[ОБЪЕДИНЕНА] %1$s';
 // argument(s): $txt['movetopic_auto_topic']
 $txt['mergetopic_default'] = 'Тема была объединена в %2$s.';
 
-$txt['response_prefix'] = 'От: ';
+$txt['response_prefix'] = 'Re: ';
 $txt['current_icon'] = 'Иконка';
 $txt['message_icon'] = 'Иконка сообщения';
 

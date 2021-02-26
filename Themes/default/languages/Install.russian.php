@@ -46,7 +46,7 @@ $txt['default_alienine_smileyset_name'] = 'Набор от Alienine';
 $txt['default_aaron_smileyset_name'] = 'Набор от Aaron';
 $txt['default_akyhne_smileyset_name'] = 'Набор от Akyhne';
 $txt['default_legacy_smileyset_name'] = 'Набор SMF 2.0';
-$txt['default_theme_name'] = 'Тема SMF по умолчанию - Curve2';
+$txt['default_theme_name'] = 'Curve2 (основная)';
 
 $txt['default_administrator_group'] = 'Администратор';
 $txt['default_global_moderator_group'] = 'Глобальный модератор';
