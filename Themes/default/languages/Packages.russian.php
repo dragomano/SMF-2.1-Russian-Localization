@@ -4,7 +4,7 @@
 $txt['package_proceed'] = 'Продолжить';
 $txt['php_script'] = 'Файлы пакета были извлечены, но для дальнейшей работы необходимо запустить PHP скрипт, который поставляется вместе с пакетом';
 $txt['package_run'] = 'Запустить';
-$txt['package_id'] = 'ID';
+$txt['package_id'] = '№';
 $txt['package_read'] = 'Прочитать';
 $txt['script_output'] = 'Вывод:';
 $txt['additional_notes'] = 'Дополнительно';

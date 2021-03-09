@@ -127,7 +127,7 @@ $txt['viewmembers_days_ago'] = 'дней назад';
 $txt['display_name'] = 'Отображаемое имя';
 $txt['email_address'] = 'Имейл';
 $txt['ip_address'] = 'IP-адрес';
-$txt['member_id'] = 'ID';
+$txt['member_id'] = '№';
 
 $txt['unknown'] = 'неизвестно';
 // argument(s): HTTP_REFERER (if applicable), HTTP_USER_AGENT, ip address

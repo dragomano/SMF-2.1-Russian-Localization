@@ -300,7 +300,7 @@ $txt['upgrade_conversion_proceed'] = 'Конвертация завершена!
 $txt['upgrade_convert_datajson'] = 'Преобразование данных из сериализации в JSON...';
 $txt['upgrade_json_completed'] = 'Конвертация в JSON завершена! Нажмите «Продолжить» для возобновления.';
 $txt['upgrade_executing'] = 'Выполнение:';
-$txt['upgrade_of'] = '';
+$txt['upgrade_of'] = 'из';
 $txt['upgrade_admin_login'] = 'Логин администратора:';
 $txt['upgrade_admin_disabled'] = '(ОТКЛЮЧЕНО)';
 /* Same sentence, 3 different strings */

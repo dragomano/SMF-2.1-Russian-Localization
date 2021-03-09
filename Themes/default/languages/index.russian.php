@@ -6,14 +6,10 @@ global $forum_copyright;
 // Native name, please use write your language's name (in Unicode).
 $txt['native_name'] = 'Русский';
 
-// Locale (strftime, pspell_new) and spelling. (pspell_new, can be left as '' normally.)
-// For more information see:
-//   - https://secure.php.net/manual/ru/function.pspell-new
-//   - https://secure.php.net/manual/ru/function.setlocale
-// Again, SPELLING SHOULD BE '' 99% OF THE TIME!!  Please read this!
+// Locale (strftime, basename). For more information see:
+//   - https://php.net/function.setlocale
 $txt['lang_locale'] = 'ru_RU';
 $txt['lang_dictionary'] = 'ru';
-$txt['lang_spelling'] = '';
 //https://developers.google.com/recaptcha/docs/language
 $txt['lang_recaptcha'] = 'ru';
 
@@ -163,7 +159,7 @@ $txt['reply'] = 'Ответить';
 $txt['reply_noun'] = 'Ответ';
 $txt['reply_number'] = 'Ответ #%1$s%2$s';
 $txt['approve'] = 'Одобрить';
-$txt['unapprove'] = 'Отменить одобрение';
+$txt['unapprove'] = 'Отклонить';
 $txt['approve_all'] = 'Одобрить все';
 $txt['issue_warning'] = 'Предупреждение';
 $txt['awaiting_approval'] = 'Ожидает одобрения';
@@ -421,7 +417,6 @@ $txt['two_weeks'] = '2 недели';
 $txt['one_month'] = '1 месяц';
 $txt['two_months'] = '2 месяца';
 $txt['forever'] = 'Навсегда';
-$txt['quick_login_dec'] = '';
 $txt['moved'] = 'Перенесено';
 $txt['move_why'] = 'Кратко опишите причину, по которой эти темы объединены.';
 $txt['board'] = 'Раздел';
