@@ -24,7 +24,7 @@ $txt['mailqueue_recipient'] = 'Получатель';
 $txt['mailqueue_subject'] = 'Тема сообщения';
 $txt['mailqueue_clear_list'] = 'Отправить сообщения сейчас';
 $txt['mailqueue_no_items'] = 'В очереди сообщений пусто';
-$txt['personal_message'] = '';
+$txt['personal_message'] = 'Личное сообщение';
 // Do not use numeric entities in below string.
 $txt['mailqueue_clear_list_warning'] = 'Хотите отправить все текущие сообщения в очереди? Это превысит все установленные ограничения.';
 
