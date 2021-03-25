@@ -600,7 +600,6 @@ $txt['export_settings'] = 'Настройки экспорта';
 $txt['export_include_posts'] = 'Включить сообщения';
 $txt['export_include_personal_messages'] = 'Включить личные сообщения';
 $txt['export_format'] = 'Формат файла для экспортируемых данных';
-$txt['export_format_desc'] = 'Формат файла для экспортированных данных';
 $txt['export_format_xml_xslt'] = 'Стилизованный XML (понятен людям и машинам)';
 $txt['export_format_html'] = 'HTML (понятен людям)';
 $txt['export_format_xml'] = 'XML (понятен машинам)';
