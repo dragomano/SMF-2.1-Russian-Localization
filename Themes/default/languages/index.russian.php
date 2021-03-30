@@ -147,7 +147,8 @@ $txt['notify'] = 'Уведомлять';
 $txt['unnotify'] = 'Не уведомлять';
 // Use numeric entities in the below string.
 // argument(s): forum name
-$txt['regards_team'] = "С уважением,\nАдминистрация форума %1\$s";
+$txt['regards_team'] = 'С уважением,
+Администрация форума %1$s';
 $txt['notify_replies'] = 'Уведомить о новых ответах';
 $txt['move_topic'] = 'Переместить тему';
 $txt['move_to'] = 'Переместить в';
@@ -547,7 +548,9 @@ $txt['move_topic_unapproved_js'] = 'Предупреждение! Данная �
 $txt['movetopic_auto_board'] = '[РАЗДЕЛ ФОРУМА]';
 $txt['movetopic_auto_topic'] = '[ССЫЛКА НА ТЕМУ]';
 // argument(s): $txt['movetopic_auto_board'], $txt['movetopic_auto_topic']
-$txt['movetopic_default'] = "Тема перенесена в %1\$s.\n\n%2\$s";
+$txt['movetopic_default'] = 'Тема перенесена в %1$s.
+
+%2$s';
 $txt['movetopic_redirect'] = 'Перенаправлять в перемещенную тему';
 
 $txt['post_redirection'] = 'Создать тему перенаправления';
