@@ -143,7 +143,7 @@ $txt['announce_desc'] = 'Эта форма позволяет отправлят
 $txt['announce_sending'] = 'Отправить объявление';
 $txt['announce_done'] = 'готово';
 $txt['announce_continue'] = 'Продолжить';
-$txt['announce_topic'] = 'Объявление темы';
+$txt['announce_topic'] = 'Анонсировать тему';
 $txt['announce_regular_members'] = 'Пользователи без группы';
 
 $txt['digest_subject_daily'] = 'Ежедневное обозрение';
