@@ -95,7 +95,8 @@ $txt['notify_announcements'] = 'Получать важные новости п�
 
 $txt['position'] = 'Группа';
 
-$txt['profile_of'] = 'Просмотр профиля';
+// argument(s): username
+$txt['view_profile_of_username'] = 'Просмотр профиля %1$s';
 $txt['total'] = 'Всего';
 $txt['website'] = 'Сайт';
 $txt['register'] = 'Регистрация';
