@@ -61,7 +61,7 @@ $txt['scheduled_task_remove_old_drafts'] = 'Удаление старых чер
 $txt['scheduled_task_desc_remove_old_drafts'] = 'Всех, которые старее заданного в настройках черновиков количества дней.';
 
 $txt['scheduled_task_prune_log_topics'] = 'Пометка разделов прочитанными';
-$txt['scheduled_task_desc_prune_log_topics'] = 'Помечает разделы прочитанными для пользователей, неактивных более указанного в настройках журналов количества дней назад.';
+$txt['scheduled_task_desc_prune_log_topics'] = 'Помечает разделы прочитанными для пользователей, неактивных более указанного в <a href="%1$s?action=admin;area=logs;sa=settings#markread_title">настройках журналов</a> количества дней назад.';
 
 $txt['cron_is_real_cron'] = 'Отключить метод запуска запланированных задач на основе JavaScript.';
 $txt['cron_is_real_cron_desc'] = '<strong>Не устанавливайте этот флажок</strong>, если не <strong><u>уверены</u></strong>, что настроили другой метод для регулярного запуска файла cron.php.';
