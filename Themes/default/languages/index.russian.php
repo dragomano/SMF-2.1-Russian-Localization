@@ -672,17 +672,13 @@ $txt['who_viewing_board'] = ' просматривают этот раздел.'
 $txt['who_member'] = 'Пользователь';
 
 // No longer used by default theme, but for backwards compat
-$txt['powered_by_php'] = 'Powered by PHP';
-$txt['powered_by_mysql'] = 'Powered by MySQL';
-$txt['valid_css'] = 'Valid CSS!';
+$txt['powered_by_php'] = 'Работает на PHP';
+$txt['powered_by_mysql'] = 'Работает на MySQL';
+$txt['valid_css'] = 'Валидный CSS!';
 
 // Footer strings, no longer used
-$txt['valid_html'] = 'Valid HTML 4.01!';
-$txt['valid_xhtml'] = 'Valid XHTML 1.0!';
-$txt['wap2'] = 'Мобильная версия';
 $txt['rss'] = 'RSS';
 $txt['atom'] = 'Atom';
-$txt['xhtml'] = 'XHTML';
 $txt['html'] = 'HTML';
 
 $txt['guest'] = 'гость';

@@ -93,7 +93,8 @@ $txt['icons_edit_icon'] = 'Редактировать иконки сообще�
 $txt['icons_new_icon'] = 'Новые иконки сообщения';
 $txt['icons_location_first_icon'] = 'Первая иконка';
 $txt['icons_location_after'] = 'После';
-$txt['icons_filename_all_png'] = 'Расширение файла должно быть «.png»';
+// argument(s): the supported file extension
+$txt['icons_extension_must_be'] = 'Расширение файла должно быть «%1$s»';
 $txt['icons_no_entries'] = 'Нет установленных иконок сообщений.';
 
 ?>
