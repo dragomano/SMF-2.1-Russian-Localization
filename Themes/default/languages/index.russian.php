@@ -43,6 +43,15 @@ $txt['years_title'] = 'лет';
 $txt['time_am'] = 'am';
 $txt['time_pm'] = 'pm';
 
+// Short form of minutes
+$txt['minutes_short'] = 'мин.';
+// Short form of hour
+$txt['hour_short'] = 'ч.';
+// Short form of hours
+$txt['hours_short'] = 'ч.';
+// Descimal sign
+$txt['decimal_sign'] = '.';
+
 $txt['admin'] = 'Админка';
 $txt['moderate'] = 'Модерация';
 
