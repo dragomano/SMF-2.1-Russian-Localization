@@ -154,6 +154,6 @@ $txt['themeadmin_themelist_link'] = 'Отобразить список тем о
 
 // Open Graph
 $txt['og_image'] = 'Изображение <a href="https://ruogp.me/" target="_blank" rel="noopener" class="bbc_link">Open Graph</a>';
-$txt['og_image_desc'] = 'Ссылка на оптимизированный для соцсетей логотип форума (рекомендуется 175x175px).';
+$txt['og_image_desc'] = 'Ссылка на оптимизированный для соцсетей логотип форума (рекомендуемый размер 175x175px).';
 
 ?>
