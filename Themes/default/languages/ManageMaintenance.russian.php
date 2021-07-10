@@ -1,5 +1,5 @@
 <?php
-// Version: 2.1 RC3; ManageMaintenance
+// Version: 2.1 RC4; ManageMaintenance
 
 $txt['repair_zero_ids'] = 'Найти темы и/или сообщения, ID которых равен 0.';
 $txt['repair_missing_topics'] = 'Сообщение #%1$d в несуществующей теме #%2$d.';

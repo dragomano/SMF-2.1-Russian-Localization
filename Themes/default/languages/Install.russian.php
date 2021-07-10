@@ -1,5 +1,5 @@
 <?php
-// Version: 2.1 RC3; Install
+// Version: 2.1 RC4; Install
 
 // These should be the same as those in index.language.php.
 $txt['lang_character_set'] = 'UTF-8';
@@ -201,7 +201,7 @@ $txt['error_invalid_characters_username'] = 'Неверный символ в и
 $txt['error_username_too_long'] = 'Имя пользователя может содержать не более 25 символов.';
 $txt['error_username_left_empty'] = 'Не введено имя пользователя.';
 $txt['error_db_prefix_reserved'] = 'Указанный префикс является зарезервированным. Введите другой.';
-$txt['error_utf8_support'] = 'База данных, которую вы пытаетесь использовать, не использует кодировку UTF8';
+$txt['error_utf8_support'] = 'База данных, которую вы пытаетесь использовать, не использует кодировку UTF-8';
 
 $txt['ftp_login'] = 'Настройки FTP';
 $txt['ftp_login_info'] = 'Веб-установщику требуются реквизиты FTP доступа. Эта информация используется только в процессе установки и не будет нигде сохранена.';
@@ -380,7 +380,7 @@ $txt['upgrade_options'] = 'Параметры обновления';
 $txt['backup_database'] = 'Резервное копирование базы данных';
 $txt['database_changes'] = 'Изменения базы данных';
 $txt['upgrade_complete'] = 'Обновление завершено';
-$txt['converting_utf8'] = 'Конвертация в UTF8';
+$txt['converting_utf8'] = 'Конвертация в UTF-8';
 $txt['converting_json'] = 'Конвертация в JSON';
 
 ?>

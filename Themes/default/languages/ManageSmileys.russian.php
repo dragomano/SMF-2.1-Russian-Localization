@@ -1,5 +1,5 @@
 <?php
-// Version: 2.1 RC3; ManageSmileys
+// Version: 2.1 RC4; ManageSmileys
 
 $txt['smiley_sets_save'] = 'Сохранить изменения';
 $txt['smiley_sets_add'] = 'Установить новые смайлики';

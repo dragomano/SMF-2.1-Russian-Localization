@@ -1,5 +1,5 @@
 <?php
-// Version: 2.1 RC3; Reports
+// Version: 2.1 RC4; Reports
 
 $txt['generate_reports_desc'] = 'Здесь можно сформировать различные отчёты, которые могут помочь в администрировании форума.';
 $txt['generate_reports_continue'] = 'Продолжить';
