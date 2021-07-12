@@ -1,5 +1,5 @@
 <?php
-// Version: 2.1 RC3; ManageMail
+// Version: 2.1 RC4; ManageMail
 
 $txt['mailqueue_desc'] = 'В этом разделе можно изменять конфигурацию отсылки сообщений, а также просматривать текущую очередь сообщений и управлять ею.';
 
@@ -11,7 +11,7 @@ $txt['smtp_username'] = 'Имя пользователя SMTP';
 $txt['smtp_password'] = 'Пароль SMTP';
 
 $txt['mail_limit'] = 'Максимальное количество отправляемых сообщений в минуту';
-$txt['mail_quantity'] = 'Максимальное количество сообщений на странице';
+$txt['mail_quantity'] = 'Максимальное количество писем для отправки при загрузке страницы';
 
 $txt['mailqueue_stats'] = 'Статистика очереди сообщений';
 $txt['mailqueue_oldest'] = 'Старые сообщения';
@@ -24,7 +24,7 @@ $txt['mailqueue_recipient'] = 'Получатель';
 $txt['mailqueue_subject'] = 'Тема сообщения';
 $txt['mailqueue_clear_list'] = 'Отправить сообщения сейчас';
 $txt['mailqueue_no_items'] = 'В очереди сообщений пусто';
-$txt['personal_message'] = '';
+$txt['personal_message'] = 'Личное сообщение';
 // Do not use numeric entities in below string.
 $txt['mailqueue_clear_list_warning'] = 'Хотите отправить все текущие сообщения в очереди? Это превысит все установленные ограничения.';
 

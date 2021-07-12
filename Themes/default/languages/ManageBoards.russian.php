@@ -1,5 +1,5 @@
 <?php
-// Version: 2.1 RC3; ManageBoards
+// Version: 2.1 RC4; ManageBoards
 
 $txt['boards_and_cats'] = 'Управление разделами и категориями';
 $txt['order'] = 'Расположение';
@@ -46,8 +46,8 @@ $txt['mboards_delete_cancel'] = 'Отмена';
 
 $txt['mboards_category'] = 'Категория';
 $txt['mboards_description'] = 'Описание';
-$txt['mboards_description_desc'] = 'Небольшое описание раздела. HTML теги не допускаются, можно использовать ББ-теги: {allowed_tags} ';
-$txt['mboards_cat_description_desc'] = 'Небольшое описание категории. HTML теги не допускаются, можно использовать ББ-теги: {allowed_tags} ';
+$txt['mboards_description_desc'] = 'Небольшое описание раздела. Теги HTML не допускаются, но можно использовать теги форума: {allowed_tags} ';
+$txt['mboards_cat_description_desc'] = 'Небольшое описание категории. Теги HTML не допускаются, но можно использовать теги форума: {allowed_tags} ';
 $txt['mboards_groups'] = 'Группы пользователей';
 $txt['mboards_groups_desc'] = 'Группы у которых есть доступ в этот раздел.<br><em>Примечание: если пользователь в любой из этих групп, или выбраны группы, основанные на количестве сообщений, то он будет иметь доступ в этот раздел.</em>';
 $txt['mboards_groups_regular_members'] = 'В эту группу входят все, у кого не задана основная группа.';

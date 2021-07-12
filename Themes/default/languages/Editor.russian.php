@@ -1,5 +1,5 @@
 <?php
-// Version: 2.1 RC3; Editor
+// Version: 2.1 RC4; Editor
 
 global $editortxt;
 
@@ -35,13 +35,14 @@ $editortxt['insert_table'] = 'Вставить таблицу';
 $editortxt['insert_horizontal_rule'] = 'Вставить горизонтальную линию';
 $editortxt['code'] = 'Код';
 $editortxt['insert_quote'] = 'Вставить цитату';
-$editortxt['width'] = 'Ширина (опционально):';
-$editortxt['height'] = 'Высота (опционально):';
+$editortxt['width'] = 'Ширина (необязательно):';
+$editortxt['height'] = 'Высота (необязательно):';
 $editortxt['insert_image'] = 'Вставить изображение';
 $editortxt['email'] = 'Имейл: ';
 $editortxt['insert_email'] = 'Вставить адрес электронной почты';
 $editortxt['url'] = 'Ссылка (URL): ';
 $editortxt['insert_link'] = 'Вставить ссылку';
+$editortxt['description'] = 'Описание (необязательно)';
 $editortxt['unlink'] = 'Убрать сылку';
 $editortxt['more'] = 'Ещё';
 $editortxt['close'] = 'Закрыть';
@@ -59,5 +60,6 @@ $editortxt['flash'] = 'Вставить Flash';
 $editortxt['float_left'] = 'Плавающий блок слева';
 $editortxt['float_right'] = 'Плавающий блок справа';
 $editortxt['maximize'] = 'Развернуть на весь экран';
+$editortxt['dateformat'] = 'day.month.year';
 
 ?>

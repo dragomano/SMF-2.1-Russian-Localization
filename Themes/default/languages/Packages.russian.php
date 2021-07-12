@@ -1,10 +1,10 @@
 <?php
-// Version: 2.1 RC3; Packages
+// Version: 2.1 RC4; Packages
 
 $txt['package_proceed'] = 'Продолжить';
 $txt['php_script'] = 'Файлы пакета были извлечены, но для дальнейшей работы необходимо запустить PHP скрипт, который поставляется вместе с пакетом';
 $txt['package_run'] = 'Запустить';
-$txt['package_id'] = 'ID';
+$txt['package_id'] = '№';
 $txt['package_read'] = 'Прочитать';
 $txt['script_output'] = 'Вывод:';
 $txt['additional_notes'] = 'Дополнительно';
@@ -90,6 +90,8 @@ $txt['corrupt_compatible'] = 'Устанавливаемый пакет повр
 $txt['package_create'] = 'Создание';
 $txt['package_move'] = 'Перемещение';
 $txt['package_delete'] = 'Удаление';
+$txt['package_delete2'] = 'Удалить файл модификации';
+$txt['package_keep'] = 'Сохранить файл модификации';
 $txt['package_extract'] = 'Извлечение';
 $txt['package_file'] = 'файла';
 $txt['package_tree'] = 'папки';
@@ -156,7 +158,7 @@ $txt['package_ftp_path'] = 'Локальный путь к SMF';
 $txt['package_ftp_test'] = 'Тест';
 $txt['package_ftp_test_connection'] = 'Протестировать соединение';
 $txt['package_ftp_test_success'] = 'Связь с FTP сервером установлена.';
-$txt['package_ftp_test_failed'] = 'Не могу соединится с сервером.';
+$txt['package_ftp_test_failed'] = 'Не удалось соединиться с сервером.';
 
 // For a break, use -n- instead of <br>... and don't use entities.
 $txt['package_delete_bad'] = 'Пакет, который вы пытаетесь удалить, установлен на форуме!-n-Если удалить сам пакет, то в дальнейшем будет невозможно удалить эту модификацию.-n-Уверены?';
@@ -184,7 +186,7 @@ $txt['package_cleanperms_free'] = 'Все файлы имеют права на 
 $txt['package_cleanperms_restrictive'] = 'Минимум файлов имеют права на запись.';
 $txt['package_cleanperms_go'] = 'Изменить';
 
-$txt['package_download_by_url'] = 'Загрузить пакет модификаций по адресу';
+$txt['package_download_by_url'] = 'Загрузить пакет модификации по адресу';
 $txt['package_download_filename'] = 'Название файла';
 $txt['package_download_filename_info'] = 'Используйте, если адрес не заканчивается именем файла. Например: index.php?mod=5';
 
@@ -233,16 +235,16 @@ $txt['package_file_perms_predefined'] = 'Использовать предуст
 $txt['package_file_perms_predefined_note'] = 'Обратите внимание профиль применяется только к ключевым файлам и папкам SMF.';
 $txt['package_file_perms_apply'] = 'Применить индивидуальные настройки прав доступа.';
 $txt['package_file_perms_custom'] = 'Если будет выбран «Специальный профиль», используйте следующие значения chmod';
-$txt['package_file_perms_pre_restricted'] = 'Ограниченный &mdash; минимум файлов записываемые';
-$txt['package_file_perms_pre_standard'] = 'Стандартный &mdash; ключевые файлы записываемые';
-$txt['package_file_perms_pre_free'] = 'Свободный &mdash; все файлы записываемые';
+$txt['package_file_perms_pre_restricted'] = 'Ограниченный — минимум файлов записываемые';
+$txt['package_file_perms_pre_standard'] = 'Стандартный — ключевые файлы записываемые';
+$txt['package_file_perms_pre_free'] = 'Свободный — все файлы записываемые';
 $txt['package_file_perms_ftp_details'] = 'На большинстве серверов изменение прав на файлы возможно только при использовании FTP. Введите данные для соединения';
 $txt['package_file_perms_ftp_retain'] = 'Обратите внимание: SMF использует информацию для подключения временно, только для помощи менеджеру пакетов.';
 $txt['package_file_perms_go'] = 'Изменить';
 
 $txt['package_file_perms_applying'] = 'Применить изменения';
 $txt['package_file_perms_items_done'] = '%1$d из %2$d элементов завершено';
-$txt['package_file_perms_skipping_ftp'] = '<strong>Внимание:</strong> При подключении к FTP-серверу возникли ошибки, связанные с отсутствием необходимых прав доступа. Вероятно, вы ошиблись при вводе параметров подключения к FTP &mdash; проверьте результаты по завершении и повторите подключение, в случае необходимости.';
+$txt['package_file_perms_skipping_ftp'] = '<strong>Внимание:</strong> При подключении к FTP-серверу возникли ошибки, связанные с отсутствием необходимых прав доступа. Вероятно, вы ошиблись при вводе параметров подключения к FTP — проверьте результаты по завершении и повторите подключение, в случае необходимости.';
 
 $txt['package_file_perms_dirs_done'] = '%1$d из %2$d папок готовы';
 $txt['package_file_perms_files_done'] = '%1$d из %2$d файлов готовы в текущей папке';
@@ -257,7 +259,7 @@ $txt['package_restore_permissions_orig_status'] = 'Оригинальный ст
 $txt['package_restore_permissions_cur_status'] = 'Текущий статус';
 $txt['package_restore_permissions_result'] = 'Результат';
 $txt['package_restore_permissions_pre_change'] = '%1$s (%3$s)';
-$txt['package_restore_permissions_post_change'] = '%2$s (%3$s &mdash; было %2$s)';
+$txt['package_restore_permissions_post_change'] = '%2$s (%3$s — было %2$s)';
 $txt['package_restore_permissions_action_skipped'] = '<em>Пропущено</em>';
 $txt['package_restore_permissions_action_success'] = '<span class="success">Выполнено</span>';
 $txt['package_restore_permissions_action_failure'] = '<span class="error">С ошибками</span>';
@@ -265,7 +267,7 @@ $txt['package_restore_permissions_action_done'] = 'SMF попытался вос
 
 $txt['package_file_perms_warning'] = 'Обратите внимание';
 $txt['package_file_perms_warning_desc'] = '
-	<li>Будьте осторожны, изменяя права доступа на файлы и папки в данном разделе настроек &mdash; неправильно выставленные права могут неблагоприятно отразиться на работе форума!</li>
+	<li>Будьте осторожны, изменяя права доступа на файлы и папки в данном разделе настроек — неправильно выставленные права могут неблагоприятно отразиться на работе форума!</li>
 	<li>На некоторых серверах неправильно выставленные права доступа могут привести к полной остановке функционирования форума SMF.</li>
 	<li>Для использования данной функциональности такие папки, как <i>attachments</i>, должны иметь права на запись.</li>
 	<li>Данная функциональность не работает на Windows-серверах, поскольку Windows не обладает таким набором прав доступа.</li>

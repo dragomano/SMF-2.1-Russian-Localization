@@ -1,5 +1,5 @@
 <?php
-// Version: 2.1 RC3; Stats
+// Version: 2.1 RC4; Stats
 
 
 
@@ -18,7 +18,6 @@ $txt['page_views'] = 'Просмотров';
 $txt['top_topics_replies'] = 'Первая десятка тем (по количеству ответов)';
 $txt['top_topics_views'] = 'Первая десятка тем (по количеству просмотров)';
 $txt['yearly_summary'] = 'Статистика по месяцам';
-$txt['smf_stats_14'] = 'Максимум онлайн';
 $txt['top_starters'] = 'Десятка самых активных авторов';
 $txt['top_time_online'] = 'Максимальное время, проведенное на форуме';
 $txt['stats_more_detailed'] = 'более подробно &raquo;';

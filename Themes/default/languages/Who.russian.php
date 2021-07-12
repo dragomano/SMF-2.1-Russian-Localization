@@ -1,5 +1,5 @@
 <?php
-// Version: 2.1 RC3; Who
+// Version: 2.1 RC4; Who
 
 
 
@@ -27,6 +27,7 @@ $txt['whospider_reminder'] = 'Просматривает страницу нап
 
 $txt['whoall_activate'] = 'Активирует свою учётную запись.';
 $txt['whoall_buddy'] = 'Изменяет список своих друзей.';
+$txt['whoall_agreement'] = 'Просматривает <a href="%1$s?action=agreement">условия и правила</a>.';
 $txt['whoall_coppa'] = 'Заполняет сведения о родителях/опекунах.';
 $txt['whoall_credits'] = 'Просматривает информацию о разработчиках.';
 $txt['whoall_emailuser'] = 'Отправляет письмо другому пользователю.';
@@ -200,11 +201,11 @@ $txt['credits_version'] = 'Версия';
 // Replace "English" with the name of this language pack in the string below.
 $txt['credits_groups_translation'] = 'Создателям русской локализации';
 $txt['credits_groups_translators'] = 'Переводчикам';
-$txt['credits_translators_message'] = 'Благодарим за проделанную работу, которая сделала возможным использование SMF во всем мире.';
+$txt['credits_translators_message'] = 'Благодарим за проделанную работу, которая сделала возможным использование SMF во всем мире';
 $txt['credits_groups_consultants'] = 'Консультантам';
 $txt['credits_code_contributors'] = 'всем, кто участвовал в <a href="https://github.com/SimpleMachines/SMF2.1/graphs/contributors">разработке на GitHub</a>';
 $txt['credits_groups_beta'] = 'Бета тестерам';
-$txt['credits_beta_message'] = 'Тем, кто неустанно находил ошибки, использовал обратную связь, а также сводил с ума разработчиков.';
+$txt['credits_beta_message'] = 'Тем, кто неустанно находил ошибки, использовал обратную связь, а также сводил с ума разработчиков';
 $txt['credits_groups_founder'] = 'Основателю SMF';
 $txt['credits_groups_orignal_pm'] = 'Первым менеджерам проекта';
 $txt['credits_in_memoriam'] = 'Памяти';

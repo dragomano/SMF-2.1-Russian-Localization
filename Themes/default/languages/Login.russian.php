@@ -1,5 +1,5 @@
 <?php
-// Version: 2.1 RC3; Login
+// Version: 2.1 RC4; Login
 
 // Registration agreement page.
 $txt['registration_agreement'] = 'Регистрационное соглашение';
@@ -147,5 +147,12 @@ $txt['registration_password_no_match'] = 'Пароли не совпадают';
 $txt['registration_password_valid'] = 'Пароль правильный';
 
 $txt['registration_errors_occurred'] = 'Следующие ошибки были обнаружены при регистрации. Пожалуйста, исправьте их:';
+$txt['registration_agreement_missing'] = 'Файл с регистрационным сообщением agreement.txt отсутствует или пустой. Регистрация была отключена до тех пор, пока это не будет исправлено';
+$txt['registration_policy_missing'] = 'Политика конфиденциальности отсутствует. Регистрация была отключена до тех пор, пока это не будет исправлено';
+
+// Logout
+$txt['logout_confirm'] = 'Хотите выйти из системы?';
+$txt['logout_notice'] = 'Вы собираетесь разлогиниться и продолжить просмотр в качестве гостя!';
+$txt['logout_return'] = 'Остаться авторизованным и вернуться к просмотру форума в качестве пользователя.';
 
 ?>
